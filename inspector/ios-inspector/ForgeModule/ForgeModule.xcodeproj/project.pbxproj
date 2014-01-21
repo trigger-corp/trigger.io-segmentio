@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711AA157188D49D400FA8D62 /* Analytics in Frameworks */ = {isa = PBXBuildFile; fileRef = 711AA156188D49D400FA8D62 /* Analytics */; };
+		B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D5115C13D5200854074 /* Foundation.framework */; };
+		B31B6D6F15C1467100854074 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D6E15C1467100854074 /* CoreFoundation.framework */; };
+		B37C3A5D162717A200B50A60 /* ForgeCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37C3A5C162717A200B50A60 /* ForgeCore.framework */; };
+		B3CC61F21716ECB500A1A8EF /* segmentio_API.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC61F01716ECB500A1A8EF /* segmentio_API.m */; };
+		B3CC61F41716ECBB00A1A8EF /* segmentio_EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC61F31716ECBB00A1A8EF /* segmentio_EventListener.m */; };
+		B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC51F715C151E5003574D9 /* UIKit.framework */; };
+		B3FC51FF15C1523D003574D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */; };
+		B3FC524215C177EA003574D9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC524115C177EA003574D9 /* AssetsLibrary.framework */; };
+		B3FC524815C17B2C003574D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		711AA156188D49D400FA8D62 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Analytics; path = Analytics.framework/Versions/A/Analytics; sourceTree = "<group>"; };
+		711AA158188D49F000FA8D62 /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Analytics.framework/Versions/A/Headers/Analytics.h; sourceTree = "<group>"; };
+		711AA159188D49F000FA8D62 /* Bugsnag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bugsnag.h; path = Analytics.framework/Versions/A/Headers/Bugsnag.h; sourceTree = "<group>"; };
+		711AA15A188D49F000FA8D62 /* BugsnagConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagConfiguration.h; path = Analytics.framework/Versions/A/Headers/BugsnagConfiguration.h; sourceTree = "<group>"; };
+		711AA15B188D49F000FA8D62 /* BugsnagDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagDictionary.h; path = Analytics.framework/Versions/A/Headers/BugsnagDictionary.h; sourceTree = "<group>"; };
+		711AA15C188D49F000FA8D62 /* BugsnagEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagEvent.h; path = Analytics.framework/Versions/A/Headers/BugsnagEvent.h; sourceTree = "<group>"; };
+		711AA15D188D49F000FA8D62 /* BugsnagLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagLogger.h; path = Analytics.framework/Versions/A/Headers/BugsnagLogger.h; sourceTree = "<group>"; };
+		711AA15E188D49F000FA8D62 /* BugsnagMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagMetaData.h; path = Analytics.framework/Versions/A/Headers/BugsnagMetaData.h; sourceTree = "<group>"; };
+		711AA15F188D49F000FA8D62 /* BugsnagNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagNotifier.h; path = Analytics.framework/Versions/A/Headers/BugsnagNotifier.h; sourceTree = "<group>"; };
+		711AA160188D49F000FA8D62 /* CBTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBTracker.h; path = Analytics.framework/Versions/A/Headers/CBTracker.h; sourceTree = "<group>"; };
+		711AA161188D49F000FA8D62 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRFilter.h; path = Analytics.framework/Versions/A/Headers/CRFilter.h; sourceTree = "<group>"; };
+		711AA162188D49F000FA8D62 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crittercism.h; path = Analytics.framework/Versions/A/Headers/Crittercism.h; sourceTree = "<group>"; };
+		711AA163188D49F000FA8D62 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrittercismDelegate.h; path = Analytics.framework/Versions/A/Headers/CrittercismDelegate.h; sourceTree = "<group>"; };
+		711AA164188D49F000FA8D62 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Analytics.framework/Versions/A/Headers/Flurry.h; sourceTree = "<group>"; };
+		711AA165188D49F000FA8D62 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Analytics.framework/Versions/A/Headers/GAI.h; sourceTree = "<group>"; };
+		711AA166188D49F000FA8D62 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Analytics.framework/Versions/A/Headers/GAILogger.h; sourceTree = "<group>"; };
+		711AA167188D49F000FA8D62 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Analytics.framework/Versions/A/Headers/GAITrackedViewController.h; sourceTree = "<group>"; };
+		711AA168188D49F000FA8D62 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Analytics.framework/Versions/A/Headers/GAITracker.h; sourceTree = "<group>"; };
+		711AA169188D49F000FA8D62 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mixpanel.h; path = Analytics.framework/Versions/A/Headers/Mixpanel.h; sourceTree = "<group>"; };
+		711AA16A188D49F000FA8D62 /* MPSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSurvey.h; path = Analytics.framework/Versions/A/Headers/MPSurvey.h; sourceTree = "<group>"; };
+		711AA16C188D49F000FA8D62 /* AnalyticsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsProvider.h; sourceTree = "<group>"; };
+		711AA16D188D49F000FA8D62 /* SegmentioProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentioProvider.h; sourceTree = "<group>"; };
+		711AA16E188D49F000FA8D62 /* TapstreamProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapstreamProvider.h; path = Analytics.framework/Versions/A/Headers/TapstreamProvider.h; sourceTree = "<group>"; };
+		711AA16F188D49F000FA8D62 /* TSApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSApi.h; path = Analytics.framework/Versions/A/Headers/TSApi.h; sourceTree = "<group>"; };
+		711AA170188D49F000FA8D62 /* TSAppEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAppEventSource.h; path = Analytics.framework/Versions/A/Headers/TSAppEventSource.h; sourceTree = "<group>"; };
+		711AA171188D49F000FA8D62 /* TSAppEventSourceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAppEventSourceImpl.h; path = Analytics.framework/Versions/A/Headers/TSAppEventSourceImpl.h; sourceTree = "<group>"; };
+		711AA172188D49F000FA8D62 /* TSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSConfig.h; path = Analytics.framework/Versions/A/Headers/TSConfig.h; sourceTree = "<group>"; };
+		711AA173188D49F000FA8D62 /* TSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCore.h; path = Analytics.framework/Versions/A/Headers/TSCore.h; sourceTree = "<group>"; };
+		711AA174188D49F000FA8D62 /* TSCoreListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCoreListener.h; path = Analytics.framework/Versions/A/Headers/TSCoreListener.h; sourceTree = "<group>"; };
+		711AA175188D49F000FA8D62 /* TSCoreListenerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCoreListenerImpl.h; path = Analytics.framework/Versions/A/Headers/TSCoreListenerImpl.h; sourceTree = "<group>"; };
+		711AA176188D49F000FA8D62 /* TSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSDelegate.h; path = Analytics.framework/Versions/A/Headers/TSDelegate.h; sourceTree = "<group>"; };
+		711AA177188D49F000FA8D62 /* TSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSEvent.h; path = Analytics.framework/Versions/A/Headers/TSEvent.h; sourceTree = "<group>"; };
+		711AA178188D49F000FA8D62 /* TSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSHelpers.h; path = Analytics.framework/Versions/A/Headers/TSHelpers.h; sourceTree = "<group>"; };
+		711AA179188D49F000FA8D62 /* TSHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSHit.h; path = Analytics.framework/Versions/A/Headers/TSHit.h; sourceTree = "<group>"; };
+		711AA17A188D49F000FA8D62 /* TSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSLogging.h; path = Analytics.framework/Versions/A/Headers/TSLogging.h; sourceTree = "<group>"; };
+		711AA17B188D49F000FA8D62 /* TSLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSLogLevel.h; path = Analytics.framework/Versions/A/Headers/TSLogLevel.h; sourceTree = "<group>"; };
+		711AA17C188D49F000FA8D62 /* TSPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSPlatform.h; path = Analytics.framework/Versions/A/Headers/TSPlatform.h; sourceTree = "<group>"; };
+		711AA17D188D49F000FA8D62 /* TSPlatformImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSPlatformImpl.h; path = Analytics.framework/Versions/A/Headers/TSPlatformImpl.h; sourceTree = "<group>"; };
+		711AA17E188D49F000FA8D62 /* TSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSResponse.h; path = Analytics.framework/Versions/A/Headers/TSResponse.h; sourceTree = "<group>"; };
+		711AA17F188D49F000FA8D62 /* TSTapstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSTapstream.h; path = Analytics.framework/Versions/A/Headers/TSTapstream.h; sourceTree = "<group>"; };
+		711AA180188D49F000FA8D62 /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSUtils.h; path = Analytics.framework/Versions/A/Headers/TSUtils.h; sourceTree = "<group>"; };
+		B31B6D4E15C13D5200854074 /* libForgeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForgeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31B6D5115C13D5200854074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B31B6D6D15C1467100854074 /* segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31B6D6E15C1467100854074 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B37C3A5C162717A200B50A60 /* ForgeCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForgeCore.framework; path = ../ForgeCore.framework; sourceTree = "<group>"; };
+		B3CC61EF1716ECB500A1A8EF /* segmentio_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segmentio_API.h; sourceTree = "<group>"; };
+		B3CC61F01716ECB500A1A8EF /* segmentio_API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = segmentio_API.m; sourceTree = "<group>"; };
+		B3CC61F11716ECB500A1A8EF /* segmentio_EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segmentio_EventListener.h; sourceTree = "<group>"; };
+		B3CC61F31716ECBB00A1A8EF /* segmentio_EventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = segmentio_EventListener.m; sourceTree = "<group>"; };
+		B3FC51F715C151E5003574D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3FC524115C177EA003574D9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31B6D4B15C13D5200854074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC524815C17B2C003574D9 /* SystemConfiguration.framework in Frameworks */,
+				B3FC524215C177EA003574D9 /* AssetsLibrary.framework in Frameworks */,
+				B3FC51FF15C1523D003574D9 /* CoreGraphics.framework in Frameworks */,
+				711AA157188D49D400FA8D62 /* Analytics in Frameworks */,
+				B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */,
+				B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */,
+				B37C3A5D162717A200B50A60 /* ForgeCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31B6D6A15C1467100854074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31B6D6F15C1467100854074 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711AA154188D499900FA8D62 /* Analytics.framework */ = {
+			isa = PBXGroup;
+			children = (
+				711AA158188D49F000FA8D62 /* Analytics.h */,
+				711AA159188D49F000FA8D62 /* Bugsnag.h */,
+				711AA15A188D49F000FA8D62 /* BugsnagConfiguration.h */,
+				711AA15B188D49F000FA8D62 /* BugsnagDictionary.h */,
+				711AA15C188D49F000FA8D62 /* BugsnagEvent.h */,
+				711AA15D188D49F000FA8D62 /* BugsnagLogger.h */,
+				711AA15E188D49F000FA8D62 /* BugsnagMetaData.h */,
+				711AA15F188D49F000FA8D62 /* BugsnagNotifier.h */,
+				711AA160188D49F000FA8D62 /* CBTracker.h */,
+				711AA161188D49F000FA8D62 /* CRFilter.h */,
+				711AA162188D49F000FA8D62 /* Crittercism.h */,
+				711AA163188D49F000FA8D62 /* CrittercismDelegate.h */,
+				711AA164188D49F000FA8D62 /* Flurry.h */,
+				711AA165188D49F000FA8D62 /* GAI.h */,
+				711AA166188D49F000FA8D62 /* GAILogger.h */,
+				711AA167188D49F000FA8D62 /* GAITrackedViewController.h */,
+				711AA168188D49F000FA8D62 /* GAITracker.h */,
+				711AA169188D49F000FA8D62 /* Mixpanel.h */,
+				711AA16A188D49F000FA8D62 /* MPSurvey.h */,
+				711AA16B188D49F000FA8D62 /* Private */,
+				711AA16E188D49F000FA8D62 /* TapstreamProvider.h */,
+				711AA16F188D49F000FA8D62 /* TSApi.h */,
+				711AA170188D49F000FA8D62 /* TSAppEventSource.h */,
+				711AA171188D49F000FA8D62 /* TSAppEventSourceImpl.h */,
+				711AA172188D49F000FA8D62 /* TSConfig.h */,
+				711AA173188D49F000FA8D62 /* TSCore.h */,
+				711AA174188D49F000FA8D62 /* TSCoreListener.h */,
+				711AA175188D49F000FA8D62 /* TSCoreListenerImpl.h */,
+				711AA176188D49F000FA8D62 /* TSDelegate.h */,
+				711AA177188D49F000FA8D62 /* TSEvent.h */,
+				711AA178188D49F000FA8D62 /* TSHelpers.h */,
+				711AA179188D49F000FA8D62 /* TSHit.h */,
+				711AA17A188D49F000FA8D62 /* TSLogging.h */,
+				711AA17B188D49F000FA8D62 /* TSLogLevel.h */,
+				711AA17C188D49F000FA8D62 /* TSPlatform.h */,
+				711AA17D188D49F000FA8D62 /* TSPlatformImpl.h */,
+				711AA17E188D49F000FA8D62 /* TSResponse.h */,
+				711AA17F188D49F000FA8D62 /* TSTapstream.h */,
+				711AA180188D49F000FA8D62 /* TSUtils.h */,
+				711AA156188D49D400FA8D62 /* Analytics */,
+			);
+			name = Analytics.framework;
+			sourceTree = "<group>";
+		};
+		711AA16B188D49F000FA8D62 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				711AA16C188D49F000FA8D62 /* AnalyticsProvider.h */,
+				711AA16D188D49F000FA8D62 /* SegmentioProvider.h */,
+			);
+			name = Private;
+			path = Analytics.framework/Versions/A/Headers/Private;
+			sourceTree = "<group>";
+		};
+		B31B6D4315C13D5200854074 = {
+			isa = PBXGroup;
+			children = (
+				711AA154188D499900FA8D62 /* Analytics.framework */,
+				B3CC61EF1716ECB500A1A8EF /* segmentio_API.h */,
+				B3CC61F01716ECB500A1A8EF /* segmentio_API.m */,
+				B3CC61F11716ECB500A1A8EF /* segmentio_EventListener.h */,
+				B3CC61F31716ECBB00A1A8EF /* segmentio_EventListener.m */,
+				B31B6D5015C13D5200854074 /* Frameworks */,
+				B31B6D4F15C13D5200854074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31B6D4F15C13D5200854074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31B6D4E15C13D5200854074 /* libForgeModule.a */,
+				B31B6D6D15C1467100854074 /* segmentio.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31B6D5015C13D5200854074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B37C3A5C162717A200B50A60 /* ForgeCore.framework */,
+				B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */,
+				B3FC524115C177EA003574D9 /* AssetsLibrary.framework */,
+				B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */,
+				B3FC51F715C151E5003574D9 /* UIKit.framework */,
+				B31B6D5115C13D5200854074 /* Foundation.framework */,
+				B31B6D6E15C1467100854074 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31B6D4D15C13D5200854074 /* ForgeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31B6D5C15C13D5200854074 /* Build configuration list for PBXNativeTarget "ForgeModule" */;
+			buildPhases = (
+				B31B6D4A15C13D5200854074 /* Sources */,
+				B31B6D4B15C13D5200854074 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgeModule;
+			productName = ForgeCore;
+			productReference = B31B6D4E15C13D5200854074 /* libForgeModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B31B6D6C15C1467100854074 /* ForgeModuleResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31B6D7715C1467100854074 /* Build configuration list for PBXNativeTarget "ForgeModuleResources" */;
+			buildPhases = (
+				B31B6D6915C1467100854074 /* Sources */,
+				B31B6D6A15C1467100854074 /* Frameworks */,
+				B31B6D6B15C1467100854074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgeModuleResources;
+			productName = ForgeCoreResources;
+			productReference = B31B6D6D15C1467100854074 /* segmentio.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31B6D4515C13D5200854074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Trigger Corp";
+			};
+			buildConfigurationList = B31B6D4815C13D5200854074 /* Build configuration list for PBXProject "ForgeModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B31B6D4315C13D5200854074;
+			productRefGroup = B31B6D4F15C13D5200854074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31B6D4D15C13D5200854074 /* ForgeModule */,
+				B31B6D6C15C1467100854074 /* ForgeModuleResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31B6D6B15C1467100854074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31B6D4A15C13D5200854074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CC61F21716ECB500A1A8EF /* segmentio_API.m in Sources */,
+				B3CC61F41716ECBB00A1A8EF /* segmentio_EventListener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31B6D6915C1467100854074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B31B6D5A15C13D5200854074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B31B6D5B15C13D5200854074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31B6D5D15C13D5200854074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForgeModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = "./**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/antoine/.Trash/ios-inspector.mine/ForgeModule/Analytics.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		B31B6D5E15C13D5200854074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForgeModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = "./**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/antoine/.Trash/ios-inspector.mine/ForgeModule/Analytics.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		B31B6D7815C1467100854074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = segmentio;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B31B6D7915C1467100854074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = segmentio;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31B6D4815C13D5200854074 /* Build configuration list for PBXProject "ForgeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31B6D5A15C13D5200854074 /* Debug */,
+				B31B6D5B15C13D5200854074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31B6D5C15C13D5200854074 /* Build configuration list for PBXNativeTarget "ForgeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31B6D5D15C13D5200854074 /* Debug */,
+				B31B6D5E15C13D5200854074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31B6D7715C1467100854074 /* Build configuration list for PBXNativeTarget "ForgeModuleResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31B6D7815C1467100854074 /* Debug */,
+				B31B6D7915C1467100854074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31B6D4515C13D5200854074 /* Project object */;
+}

@@ -1,0 +1,16 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"writeKey": {
+			"required": true,
+			"description": "Write key from segment.io",
+			"type": "string"
+		},
+		"debug": {
+			"required": false,
+			"description": "Output debug logs from the SDK",
+			"type": "boolean"
+		}
+	}
+}

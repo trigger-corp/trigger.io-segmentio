@@ -1,0 +1,8 @@
+[
+	{ "do": { "android_add_permission": { "permission": "android.permission.INTERNET" } } },
+	{ "do": { "android_add_permission": { "permission": "android.permission.ACCESS_NETWORK_STATE" } } },
+	{ "do": { "android_add_permission": { "permission": "android.permission.READ_LOGS" } } },
+	{ "do": { "android_add_permission": { "permission": "android.permission.GET_TASKS" } } },
+	{ "do": { "android_add_permission": { "permission": "android.permission.ACCESS_COARSE_LOCATION" } } },
+	{ "do": { "android_add_permission": { "permission": "android.permission.ACCESS_FINE_LOCATION" } } }
+]
