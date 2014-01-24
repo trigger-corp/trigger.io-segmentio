@@ -13,7 +13,8 @@ asyncTest("Identify user to segmentio", 1, function() {
 	forge.segmentio.identify(platform + "_automated.js", {
 		"suite": "automated",
 		"test": "forge.segmentio.identify",
-		"platform": platform
+		"platform": platform,
+		"timestamp": (new Date()).toString()
 	}, function () {
 		ok(true, "Expected success");
 		start();
@@ -27,7 +28,8 @@ asyncTest("Track an event - all params", 1, function() {
 	forge.segmentio.track("test forge.segmentio.track(event, properties)", {
 		"suite": "automated",
 		"test": "forge.segmentio.track",
-		"platform": platform
+		"platform": platform,
+		"timestamp": (new Date()).toString()
 	}, function () {
 		ok(true, "Expected success");
 		start();
@@ -51,7 +53,8 @@ asyncTest("Record screen", 1, function() {
 	forge.segmentio.screen("test forge.segmentio.screen(screenTitle, properties)", {
 		"suite": "automated",
 		"test": "forge.segmentio.screen",
-		"platform": platform
+		"platform": platform,
+		"timestamp": (new Date()).toString()
 	}, function () {
 		ok(true, "Expected success");
 		start();
@@ -60,4 +63,3 @@ asyncTest("Record screen", 1, function() {
 		start();
 	});
 });
-

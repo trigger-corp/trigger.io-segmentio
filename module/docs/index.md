@@ -5,7 +5,9 @@ The ``forge.segmentio`` namespace allows you to use the segment.io SDK to record
 
 ##Using the segmentio module
 
-The module API follows the same conventions as segment.io's native SDK. See [https://segment.io/libraries/ios](https://segment.io/libraries/ios) for more information.
+The module API follows the same conventions as segment.io's native SDK. See
+[https://segment.io/libraries/ios](https://segment.io/libraries/ios) for more
+information.
 
 
 ##Configuration options
@@ -39,4 +41,3 @@ writeKey
 !description: Lets you record the app screens that your users view.
 !platforms: iOS, Android
 !param: error `function(content)` called with details of any error which may occur.
-
