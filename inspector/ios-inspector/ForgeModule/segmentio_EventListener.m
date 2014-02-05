@@ -14,7 +14,7 @@
     }
     [Analytics debug:debug];
     
-    NSString* writeKey = [config objectForKey:@"writeKey"];
+    NSString* writeKey = [config objectForKey:@"ios_writeKey"];
     [Analytics initializeWithSecret:writeKey];
 }
 

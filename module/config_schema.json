@@ -2,9 +2,14 @@
 	"type": "object",
 	"additionalProperties": false,
 	"properties": {
-		"writeKey": {
+		"android_writeKey": {
 			"required": true,
-			"description": "Write key from segment.io",
+			"description": "Android write key from segment.io",
+			"type": "string"
+		},
+		"ios_writeKey": {
+			"required": true,
+			"description": "iOS write key from segment.io",
 			"type": "string"
 		},
 		"debug": {

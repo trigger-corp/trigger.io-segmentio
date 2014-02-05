@@ -12,9 +12,13 @@ information.
 
 ##Configuration options
 
-writeKey
-:	segment.io write key (You can find this on your segment.io project settings page)
+android_writeKey
+:	Android segment.io write key (You can find this on your segment.io project settings page)
 
+ios_writeKey
+:	iOS segment.io write key (You can find this on your segment.io project settings page)
+
+> ::important:: If you are using the same segment.io project for both Android and iOS you can simply set the keys to be identical to one another
 
 ##API
 

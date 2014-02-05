@@ -12,7 +12,7 @@ public class EventListener extends ForgeEventListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);        
 
-        String writeKey = ForgeApp.configForPlugin("segmentio").get("writeKey").getAsString();
+        String writeKey = ForgeApp.configForPlugin("segmentio").get("android_writeKey").getAsString();
         boolean debug = ForgeApp.configForPlugin("segmentio").get("debug").getAsBoolean() ? true : false;
         
         Options options = new Options();

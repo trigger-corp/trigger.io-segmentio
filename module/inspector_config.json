@@ -1,7 +1,8 @@
 {
 	"this_module": {
 		"config": {
-			"writeKey": "cu2m3j05kv",
+			"android_writeKey": "mknitwdcna",
+			"ios_writeKey": "cu2m3j05kv",
 			"debug": true
 		}
 	},
