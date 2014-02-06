@@ -13,7 +13,7 @@
 			"type": "string"
 		},
 		"debug": {
-			"required": false,
+			"required": true,
 			"description": "Output debug logs from the SDK",
 			"type": "boolean"
 		}
