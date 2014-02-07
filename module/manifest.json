@@ -1,8 +1,8 @@
 {
-    "description": "Use segment.io to record analytics data from your applications", 
-    "min_platform_version": "v2.1.0", 
-    "namespace": "segmentio", 
-    "platform_version": "v2.1.0", 
-    "version": "1.1",
-	"changes": "* Allow separate iOS and Android writeKey configuration: `ios_writeKey` and `android_writeKey`"
+	"description": "Use segment.io to record analytics data from your applications",
+	"min_platform_version": "v2.1.0",
+	"namespace": "segmentio",
+	"platform_version": "v2.1.0",
+	"version": "1.2",
+	"changes": "* Set `debug` config field to be mandatory"
 }
