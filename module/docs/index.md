@@ -38,7 +38,7 @@ ios_writeKey
 !platforms: iOS, Android
 !param: error `function(content)` called with details of any error which may occur.
 
-!method: forge.segmentio.screen(, properties, success, error)
+!method: forge.segmentio.screen(screenTitle, properties, success, error)
 !param: screenTitle `string` The title of the screen being viewed.
 !param: properties `object` An optional dictionary of properties for the screen view.
 !param: success `function()` callback to be invoked when no errors occur
