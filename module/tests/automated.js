@@ -19,7 +19,7 @@ asyncTest("Identify user to segmentio", 1, function() {
 		ok(true, "Expected success");
 		start();
 	}, function () {
-		ok(true, "Got failure. Expected success");
+		ok(false, "Got failure. Expected success");
 		start();
 	});
 });
@@ -34,7 +34,7 @@ asyncTest("Track an event - all params", 1, function() {
 		ok(true, "Expected success");
 		start();
 	}, function () {
-		ok(true, "Got failure. Expected success");
+		ok(false, "Got failure. Expected success");
 		start();
 	});
 });
@@ -44,7 +44,7 @@ asyncTest("Track an event - no properties", 1, function() {
 		ok(true, "Expected success");
 		start();
 	}, function () {
-		ok(true, "Got failure. Expected success");
+		ok(false, "Got failure. Expected success");
 		start();
 	});
 });
@@ -59,7 +59,7 @@ asyncTest("Record screen", 1, function() {
 		ok(true, "Expected success");
 		start();
 	}, function () {
-		ok(true, "Got failure. Expected success");
+		ok(false, "Got failure. Expected success");
 		start();
 	});
 });
