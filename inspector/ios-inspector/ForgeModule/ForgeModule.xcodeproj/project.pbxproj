@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		711AA157188D49D400FA8D62 /* Analytics in Frameworks */ = {isa = PBXBuildFile; fileRef = 711AA156188D49D400FA8D62 /* Analytics */; };
+		718C262C19B73FEC00B19A36 /* Analytics in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C25A819B73FEC00B19A36 /* Analytics */; };
 		B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D5115C13D5200854074 /* Foundation.framework */; };
 		B31B6D6F15C1467100854074 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D6E15C1467100854074 /* CoreFoundation.framework */; };
 		B37C3A5D162717A200B50A60 /* ForgeCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37C3A5C162717A200B50A60 /* ForgeCore.framework */; };
@@ -20,47 +20,137 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		711AA156188D49D400FA8D62 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Analytics; path = Analytics.framework/Versions/A/Analytics; sourceTree = "<group>"; };
-		711AA158188D49F000FA8D62 /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Analytics.framework/Versions/A/Headers/Analytics.h; sourceTree = "<group>"; };
-		711AA159188D49F000FA8D62 /* Bugsnag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bugsnag.h; path = Analytics.framework/Versions/A/Headers/Bugsnag.h; sourceTree = "<group>"; };
-		711AA15A188D49F000FA8D62 /* BugsnagConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagConfiguration.h; path = Analytics.framework/Versions/A/Headers/BugsnagConfiguration.h; sourceTree = "<group>"; };
-		711AA15B188D49F000FA8D62 /* BugsnagDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagDictionary.h; path = Analytics.framework/Versions/A/Headers/BugsnagDictionary.h; sourceTree = "<group>"; };
-		711AA15C188D49F000FA8D62 /* BugsnagEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagEvent.h; path = Analytics.framework/Versions/A/Headers/BugsnagEvent.h; sourceTree = "<group>"; };
-		711AA15D188D49F000FA8D62 /* BugsnagLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagLogger.h; path = Analytics.framework/Versions/A/Headers/BugsnagLogger.h; sourceTree = "<group>"; };
-		711AA15E188D49F000FA8D62 /* BugsnagMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagMetaData.h; path = Analytics.framework/Versions/A/Headers/BugsnagMetaData.h; sourceTree = "<group>"; };
-		711AA15F188D49F000FA8D62 /* BugsnagNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BugsnagNotifier.h; path = Analytics.framework/Versions/A/Headers/BugsnagNotifier.h; sourceTree = "<group>"; };
-		711AA160188D49F000FA8D62 /* CBTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBTracker.h; path = Analytics.framework/Versions/A/Headers/CBTracker.h; sourceTree = "<group>"; };
-		711AA161188D49F000FA8D62 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRFilter.h; path = Analytics.framework/Versions/A/Headers/CRFilter.h; sourceTree = "<group>"; };
-		711AA162188D49F000FA8D62 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crittercism.h; path = Analytics.framework/Versions/A/Headers/Crittercism.h; sourceTree = "<group>"; };
-		711AA163188D49F000FA8D62 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrittercismDelegate.h; path = Analytics.framework/Versions/A/Headers/CrittercismDelegate.h; sourceTree = "<group>"; };
-		711AA164188D49F000FA8D62 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Analytics.framework/Versions/A/Headers/Flurry.h; sourceTree = "<group>"; };
-		711AA165188D49F000FA8D62 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Analytics.framework/Versions/A/Headers/GAI.h; sourceTree = "<group>"; };
-		711AA166188D49F000FA8D62 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Analytics.framework/Versions/A/Headers/GAILogger.h; sourceTree = "<group>"; };
-		711AA167188D49F000FA8D62 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Analytics.framework/Versions/A/Headers/GAITrackedViewController.h; sourceTree = "<group>"; };
-		711AA168188D49F000FA8D62 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Analytics.framework/Versions/A/Headers/GAITracker.h; sourceTree = "<group>"; };
-		711AA169188D49F000FA8D62 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mixpanel.h; path = Analytics.framework/Versions/A/Headers/Mixpanel.h; sourceTree = "<group>"; };
-		711AA16A188D49F000FA8D62 /* MPSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSurvey.h; path = Analytics.framework/Versions/A/Headers/MPSurvey.h; sourceTree = "<group>"; };
-		711AA16C188D49F000FA8D62 /* AnalyticsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsProvider.h; sourceTree = "<group>"; };
-		711AA16D188D49F000FA8D62 /* SegmentioProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentioProvider.h; sourceTree = "<group>"; };
-		711AA16E188D49F000FA8D62 /* TapstreamProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapstreamProvider.h; path = Analytics.framework/Versions/A/Headers/TapstreamProvider.h; sourceTree = "<group>"; };
-		711AA16F188D49F000FA8D62 /* TSApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSApi.h; path = Analytics.framework/Versions/A/Headers/TSApi.h; sourceTree = "<group>"; };
-		711AA170188D49F000FA8D62 /* TSAppEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAppEventSource.h; path = Analytics.framework/Versions/A/Headers/TSAppEventSource.h; sourceTree = "<group>"; };
-		711AA171188D49F000FA8D62 /* TSAppEventSourceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAppEventSourceImpl.h; path = Analytics.framework/Versions/A/Headers/TSAppEventSourceImpl.h; sourceTree = "<group>"; };
-		711AA172188D49F000FA8D62 /* TSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSConfig.h; path = Analytics.framework/Versions/A/Headers/TSConfig.h; sourceTree = "<group>"; };
-		711AA173188D49F000FA8D62 /* TSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCore.h; path = Analytics.framework/Versions/A/Headers/TSCore.h; sourceTree = "<group>"; };
-		711AA174188D49F000FA8D62 /* TSCoreListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCoreListener.h; path = Analytics.framework/Versions/A/Headers/TSCoreListener.h; sourceTree = "<group>"; };
-		711AA175188D49F000FA8D62 /* TSCoreListenerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCoreListenerImpl.h; path = Analytics.framework/Versions/A/Headers/TSCoreListenerImpl.h; sourceTree = "<group>"; };
-		711AA176188D49F000FA8D62 /* TSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSDelegate.h; path = Analytics.framework/Versions/A/Headers/TSDelegate.h; sourceTree = "<group>"; };
-		711AA177188D49F000FA8D62 /* TSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSEvent.h; path = Analytics.framework/Versions/A/Headers/TSEvent.h; sourceTree = "<group>"; };
-		711AA178188D49F000FA8D62 /* TSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSHelpers.h; path = Analytics.framework/Versions/A/Headers/TSHelpers.h; sourceTree = "<group>"; };
-		711AA179188D49F000FA8D62 /* TSHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSHit.h; path = Analytics.framework/Versions/A/Headers/TSHit.h; sourceTree = "<group>"; };
-		711AA17A188D49F000FA8D62 /* TSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSLogging.h; path = Analytics.framework/Versions/A/Headers/TSLogging.h; sourceTree = "<group>"; };
-		711AA17B188D49F000FA8D62 /* TSLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSLogLevel.h; path = Analytics.framework/Versions/A/Headers/TSLogLevel.h; sourceTree = "<group>"; };
-		711AA17C188D49F000FA8D62 /* TSPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSPlatform.h; path = Analytics.framework/Versions/A/Headers/TSPlatform.h; sourceTree = "<group>"; };
-		711AA17D188D49F000FA8D62 /* TSPlatformImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSPlatformImpl.h; path = Analytics.framework/Versions/A/Headers/TSPlatformImpl.h; sourceTree = "<group>"; };
-		711AA17E188D49F000FA8D62 /* TSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSResponse.h; path = Analytics.framework/Versions/A/Headers/TSResponse.h; sourceTree = "<group>"; };
-		711AA17F188D49F000FA8D62 /* TSTapstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSTapstream.h; path = Analytics.framework/Versions/A/Headers/TSTapstream.h; sourceTree = "<group>"; };
-		711AA180188D49F000FA8D62 /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSUtils.h; path = Analytics.framework/Versions/A/Headers/TSUtils.h; sourceTree = "<group>"; };
+		718C25A819B73FEC00B19A36 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Analytics; path = Analytics.framework/Versions/A/Analytics; sourceTree = "<group>"; };
+		718C25AA19B73FEC00B19A36 /* _MPTweakBindObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MPTweakBindObserver.h; sourceTree = "<group>"; };
+		718C25AB19B73FEC00B19A36 /* Amplitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amplitude.h; sourceTree = "<group>"; };
+		718C25AC19B73FEC00B19A36 /* AmplitudeARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmplitudeARCMacros.h; sourceTree = "<group>"; };
+		718C25AD19B73FEC00B19A36 /* AmplitudeLocationManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmplitudeLocationManagerDelegate.h; sourceTree = "<group>"; };
+		718C25AE19B73FEC00B19A36 /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		718C25AF19B73FEC00B19A36 /* AppsFlyerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
+		718C25B019B73FEC00B19A36 /* Bugsnag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bugsnag.h; sourceTree = "<group>"; };
+		718C25B119B73FEC00B19A36 /* BugsnagConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagConfiguration.h; sourceTree = "<group>"; };
+		718C25B219B73FEC00B19A36 /* BugsnagDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagDictionary.h; sourceTree = "<group>"; };
+		718C25B319B73FEC00B19A36 /* BugsnagEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagEvent.h; sourceTree = "<group>"; };
+		718C25B419B73FEC00B19A36 /* BugsnagIosNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagIosNotifier.h; sourceTree = "<group>"; };
+		718C25B519B73FEC00B19A36 /* BugsnagLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagLogger.h; sourceTree = "<group>"; };
+		718C25B619B73FEC00B19A36 /* BugsnagMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagMetaData.h; sourceTree = "<group>"; };
+		718C25B719B73FEC00B19A36 /* BugsnagNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagNotifier.h; sourceTree = "<group>"; };
+		718C25B819B73FEC00B19A36 /* BugsnagReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagReachability.h; sourceTree = "<group>"; };
+		718C25B919B73FEC00B19A36 /* Countly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly.h; sourceTree = "<group>"; };
+		718C25BA19B73FEC00B19A36 /* Countly_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly_OpenUDID.h; sourceTree = "<group>"; };
+		718C25BB19B73FEC00B19A36 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
+		718C25BC19B73FEC00B19A36 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
+		718C25BD19B73FEC00B19A36 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
+		718C25BE19B73FEC00B19A36 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		718C25BF19B73FEC00B19A36 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		718C25C019B73FEC00B19A36 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		718C25C119B73FEC00B19A36 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		718C25C219B73FEC00B19A36 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		718C25C319B73FEC00B19A36 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		718C25C419B73FEC00B19A36 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		718C25C519B73FEC00B19A36 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		718C25C619B73FEC00B19A36 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		718C25C719B73FEC00B19A36 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		718C25C819B73FEC00B19A36 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		718C25C919B73FEC00B19A36 /* LocalyticsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsConstants.h; sourceTree = "<group>"; };
+		718C25CA19B73FEC00B19A36 /* LocalyticsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsDatabase.h; sourceTree = "<group>"; };
+		718C25CB19B73FEC00B19A36 /* LocalyticsDatapointHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsDatapointHelper.h; sourceTree = "<group>"; };
+		718C25CC19B73FEC00B19A36 /* LocalyticsSession+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LocalyticsSession+Private.h"; sourceTree = "<group>"; };
+		718C25CD19B73FEC00B19A36 /* LocalyticsSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsSession.h; sourceTree = "<group>"; };
+		718C25CE19B73FEC00B19A36 /* LocalyticsUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsUploader.h; sourceTree = "<group>"; };
+		718C25CF19B73FEC00B19A36 /* LocalyticsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsUtil.h; sourceTree = "<group>"; };
+		718C25D019B73FEC00B19A36 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mixpanel.h; sourceTree = "<group>"; };
+		718C25D119B73FEC00B19A36 /* MPAbstractABTestDesignerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAbstractABTestDesignerMessage.h; sourceTree = "<group>"; };
+		718C25D219B73FEC00B19A36 /* MPABTestDesignerChangeRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerChangeRequestMessage.h; sourceTree = "<group>"; };
+		718C25D319B73FEC00B19A36 /* MPABTestDesignerChangeResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerChangeResponseMessage.h; sourceTree = "<group>"; };
+		718C25D419B73FEC00B19A36 /* MPABTestDesignerClearRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerClearRequestMessage.h; sourceTree = "<group>"; };
+		718C25D519B73FEC00B19A36 /* MPABTestDesignerClearResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerClearResponseMessage.h; sourceTree = "<group>"; };
+		718C25D619B73FEC00B19A36 /* MPABTestDesignerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerConnection.h; sourceTree = "<group>"; };
+		718C25D719B73FEC00B19A36 /* MPABTestDesignerDeviceInfoRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDeviceInfoRequestMessage.h; sourceTree = "<group>"; };
+		718C25D819B73FEC00B19A36 /* MPABTestDesignerDeviceInfoResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDeviceInfoResponseMessage.h; sourceTree = "<group>"; };
+		718C25D919B73FEC00B19A36 /* MPABTestDesignerDisconnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDisconnectMessage.h; sourceTree = "<group>"; };
+		718C25DA19B73FEC00B19A36 /* MPABTestDesignerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerMessage.h; sourceTree = "<group>"; };
+		718C25DB19B73FEC00B19A36 /* MPABTestDesignerSnapshotRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerSnapshotRequestMessage.h; sourceTree = "<group>"; };
+		718C25DC19B73FEC00B19A36 /* MPABTestDesignerSnapshotResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerSnapshotResponseMessage.h; sourceTree = "<group>"; };
+		718C25DD19B73FEC00B19A36 /* MPABTestDesignerTweakRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerTweakRequestMessage.h; sourceTree = "<group>"; };
+		718C25DE19B73FEC00B19A36 /* MPABTestDesignerTweakResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerTweakResponseMessage.h; sourceTree = "<group>"; };
+		718C25DF19B73FEC00B19A36 /* MPApplicationStateSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPApplicationStateSerializer.h; sourceTree = "<group>"; };
+		718C25E019B73FEC00B19A36 /* MPClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPClassDescription.h; sourceTree = "<group>"; };
+		718C25E119B73FEC00B19A36 /* MPEnumDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEnumDescription.h; sourceTree = "<group>"; };
+		718C25E219B73FEC00B19A36 /* MPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotification.h; sourceTree = "<group>"; };
+		718C25E319B73FEC00B19A36 /* MPNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotificationViewController.h; sourceTree = "<group>"; };
+		718C25E419B73FEC00B19A36 /* MPObjectIdentifierProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectIdentifierProvider.h; sourceTree = "<group>"; };
+		718C25E519B73FEC00B19A36 /* MPObjectIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectIdentityProvider.h; sourceTree = "<group>"; };
+		718C25E619B73FEC00B19A36 /* MPObjectSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSelector.h; sourceTree = "<group>"; };
+		718C25E719B73FEC00B19A36 /* MPObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializer.h; sourceTree = "<group>"; };
+		718C25E819B73FEC00B19A36 /* MPObjectSerializerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializerConfig.h; sourceTree = "<group>"; };
+		718C25E919B73FEC00B19A36 /* MPObjectSerializerContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializerContext.h; sourceTree = "<group>"; };
+		718C25EA19B73FEC00B19A36 /* MPPropertyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPropertyDescription.h; sourceTree = "<group>"; };
+		718C25EB19B73FEC00B19A36 /* MPSequenceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSequenceGenerator.h; sourceTree = "<group>"; };
+		718C25EC19B73FEC00B19A36 /* MPSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurvey.h; sourceTree = "<group>"; };
+		718C25ED19B73FEC00B19A36 /* MPSurveyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyNavigationController.h; sourceTree = "<group>"; };
+		718C25EE19B73FEC00B19A36 /* MPSurveyQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestion.h; sourceTree = "<group>"; };
+		718C25EF19B73FEC00B19A36 /* MPSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestionViewController.h; sourceTree = "<group>"; };
+		718C25F019B73FEC00B19A36 /* MPSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSwizzler.h; sourceTree = "<group>"; };
+		718C25F119B73FEC00B19A36 /* MPTweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweak.h; sourceTree = "<group>"; };
+		718C25F219B73FEC00B19A36 /* MPTweakInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweakInline.h; sourceTree = "<group>"; };
+		718C25F319B73FEC00B19A36 /* MPTweakInlineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweakInlineInternal.h; sourceTree = "<group>"; };
+		718C25F419B73FEC00B19A36 /* MPTweakStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweakStore.h; sourceTree = "<group>"; };
+		718C25F519B73FEC00B19A36 /* MPTypeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTypeDescription.h; sourceTree = "<group>"; };
+		718C25F619B73FEC00B19A36 /* MPValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPValueTransformers.h; sourceTree = "<group>"; };
+		718C25F719B73FEC00B19A36 /* MPVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPVariant.h; sourceTree = "<group>"; };
+		718C25F819B73FEC00B19A36 /* MPWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWebSocket.h; sourceTree = "<group>"; };
+		718C25F919B73FEC00B19A36 /* NSData+MPBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MPBase64.h"; sourceTree = "<group>"; };
+		718C25FA19B73FEC00B19A36 /* NSInvocation+MPHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+MPHelpers.h"; sourceTree = "<group>"; };
+		718C25FB19B73FEC00B19A36 /* Optimizely.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optimizely.h; sourceTree = "<group>"; };
+		718C25FC19B73FEC00B19A36 /* OptimizelyCodeBlocksKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizelyCodeBlocksKey.h; sourceTree = "<group>"; };
+		718C25FD19B73FEC00B19A36 /* OptimizelyVariableKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizelyVariableKey.h; sourceTree = "<group>"; };
+		718C25FE19B73FEC00B19A36 /* QuantcastDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastDatabase.h; sourceTree = "<group>"; };
+		718C25FF19B73FEC00B19A36 /* QuantcastDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastDataManager.h; sourceTree = "<group>"; };
+		718C260019B73FEC00B19A36 /* QuantcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastEvent.h; sourceTree = "<group>"; };
+		718C260119B73FEC00B19A36 /* QuantcastEventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastEventLogger.h; sourceTree = "<group>"; };
+		718C260219B73FEC00B19A36 /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Internal.h"; sourceTree = "<group>"; };
+		718C260319B73FEC00B19A36 /* QuantcastMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastMeasurement.h; sourceTree = "<group>"; };
+		718C260419B73FEC00B19A36 /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastNetworkReachability.h; sourceTree = "<group>"; };
+		718C260519B73FEC00B19A36 /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutDelegate.h; sourceTree = "<group>"; };
+		718C260619B73FEC00B19A36 /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutViewController.h; sourceTree = "<group>"; };
+		718C260719B73FEC00B19A36 /* QuantcastParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastParameters.h; sourceTree = "<group>"; };
+		718C260819B73FEC00B19A36 /* QuantcastPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastPolicy.h; sourceTree = "<group>"; };
+		718C260919B73FEC00B19A36 /* QuantcastUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastUploadManager.h; sourceTree = "<group>"; };
+		718C260A19B73FEC00B19A36 /* QuantcastUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastUtils.h; sourceTree = "<group>"; };
+		718C260B19B73FEC00B19A36 /* SEGAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAnalytics.h; sourceTree = "<group>"; };
+		718C260C19B73FEC00B19A36 /* TAGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		718C260D19B73FEC00B19A36 /* TAGContainerOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		718C260E19B73FEC00B19A36 /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		718C260F19B73FEC00B19A36 /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		718C261019B73FEC00B19A36 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		718C261119B73FEC00B19A36 /* Taplytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taplytics.h; sourceTree = "<group>"; };
+		718C261219B73FEC00B19A36 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		718C261319B73FEC00B19A36 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		718C261419B73FEC00B19A36 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		718C261519B73FEC00B19A36 /* TSApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSApi.h; sourceTree = "<group>"; };
+		718C261619B73FEC00B19A36 /* TSAppEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppEventSource.h; sourceTree = "<group>"; };
+		718C261719B73FEC00B19A36 /* TSAppEventSourceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppEventSourceImpl.h; sourceTree = "<group>"; };
+		718C261819B73FEC00B19A36 /* TSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSConfig.h; sourceTree = "<group>"; };
+		718C261919B73FEC00B19A36 /* TSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCore.h; sourceTree = "<group>"; };
+		718C261A19B73FEC00B19A36 /* TSCoreListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoreListener.h; sourceTree = "<group>"; };
+		718C261B19B73FEC00B19A36 /* TSCoreListenerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoreListenerImpl.h; sourceTree = "<group>"; };
+		718C261C19B73FEC00B19A36 /* TSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDelegate.h; sourceTree = "<group>"; };
+		718C261D19B73FEC00B19A36 /* TSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSEvent.h; sourceTree = "<group>"; };
+		718C261E19B73FEC00B19A36 /* TSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHelpers.h; sourceTree = "<group>"; };
+		718C261F19B73FEC00B19A36 /* TSHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHit.h; sourceTree = "<group>"; };
+		718C262019B73FEC00B19A36 /* TSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogging.h; sourceTree = "<group>"; };
+		718C262119B73FEC00B19A36 /* TSLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogLevel.h; sourceTree = "<group>"; };
+		718C262219B73FEC00B19A36 /* TSPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPlatform.h; sourceTree = "<group>"; };
+		718C262319B73FEC00B19A36 /* TSPlatformImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPlatformImpl.h; sourceTree = "<group>"; };
+		718C262419B73FEC00B19A36 /* TSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSResponse.h; sourceTree = "<group>"; };
+		718C262519B73FEC00B19A36 /* TSTapstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTapstream.h; sourceTree = "<group>"; };
+		718C262619B73FEC00B19A36 /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
+		718C262719B73FEC00B19A36 /* TSWordOfMouthDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWordOfMouthDelegate.h; sourceTree = "<group>"; };
+		718C262819B73FEC00B19A36 /* UIColor+MPColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MPColor.h"; sourceTree = "<group>"; };
+		718C262919B73FEC00B19A36 /* UIImage+MPAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPAverageColor.h"; sourceTree = "<group>"; };
+		718C262A19B73FEC00B19A36 /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPImageEffects.h"; sourceTree = "<group>"; };
+		718C262B19B73FEC00B19A36 /* UIView+MPSnapshotImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MPSnapshotImage.h"; sourceTree = "<group>"; };
 		B31B6D4E15C13D5200854074 /* libForgeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForgeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B6D5115C13D5200854074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B31B6D6D15C1467100854074 /* segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +174,7 @@
 				B3FC524815C17B2C003574D9 /* SystemConfiguration.framework in Frameworks */,
 				B3FC524215C177EA003574D9 /* AssetsLibrary.framework in Frameworks */,
 				B3FC51FF15C1523D003574D9 /* CoreGraphics.framework in Frameworks */,
-				711AA157188D49D400FA8D62 /* Analytics in Frameworks */,
+				718C262C19B73FEC00B19A36 /* Analytics in Frameworks */,
 				B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */,
 				B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */,
 				B37C3A5D162717A200B50A60 /* ForgeCore.framework in Frameworks */,
@@ -102,67 +192,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		711AA154188D499900FA8D62 /* Analytics.framework */ = {
+		718C25A719B73FD300B19A36 /* Analytics.framework */ = {
 			isa = PBXGroup;
 			children = (
-				711AA158188D49F000FA8D62 /* Analytics.h */,
-				711AA159188D49F000FA8D62 /* Bugsnag.h */,
-				711AA15A188D49F000FA8D62 /* BugsnagConfiguration.h */,
-				711AA15B188D49F000FA8D62 /* BugsnagDictionary.h */,
-				711AA15C188D49F000FA8D62 /* BugsnagEvent.h */,
-				711AA15D188D49F000FA8D62 /* BugsnagLogger.h */,
-				711AA15E188D49F000FA8D62 /* BugsnagMetaData.h */,
-				711AA15F188D49F000FA8D62 /* BugsnagNotifier.h */,
-				711AA160188D49F000FA8D62 /* CBTracker.h */,
-				711AA161188D49F000FA8D62 /* CRFilter.h */,
-				711AA162188D49F000FA8D62 /* Crittercism.h */,
-				711AA163188D49F000FA8D62 /* CrittercismDelegate.h */,
-				711AA164188D49F000FA8D62 /* Flurry.h */,
-				711AA165188D49F000FA8D62 /* GAI.h */,
-				711AA166188D49F000FA8D62 /* GAILogger.h */,
-				711AA167188D49F000FA8D62 /* GAITrackedViewController.h */,
-				711AA168188D49F000FA8D62 /* GAITracker.h */,
-				711AA169188D49F000FA8D62 /* Mixpanel.h */,
-				711AA16A188D49F000FA8D62 /* MPSurvey.h */,
-				711AA16B188D49F000FA8D62 /* Private */,
-				711AA16E188D49F000FA8D62 /* TapstreamProvider.h */,
-				711AA16F188D49F000FA8D62 /* TSApi.h */,
-				711AA170188D49F000FA8D62 /* TSAppEventSource.h */,
-				711AA171188D49F000FA8D62 /* TSAppEventSourceImpl.h */,
-				711AA172188D49F000FA8D62 /* TSConfig.h */,
-				711AA173188D49F000FA8D62 /* TSCore.h */,
-				711AA174188D49F000FA8D62 /* TSCoreListener.h */,
-				711AA175188D49F000FA8D62 /* TSCoreListenerImpl.h */,
-				711AA176188D49F000FA8D62 /* TSDelegate.h */,
-				711AA177188D49F000FA8D62 /* TSEvent.h */,
-				711AA178188D49F000FA8D62 /* TSHelpers.h */,
-				711AA179188D49F000FA8D62 /* TSHit.h */,
-				711AA17A188D49F000FA8D62 /* TSLogging.h */,
-				711AA17B188D49F000FA8D62 /* TSLogLevel.h */,
-				711AA17C188D49F000FA8D62 /* TSPlatform.h */,
-				711AA17D188D49F000FA8D62 /* TSPlatformImpl.h */,
-				711AA17E188D49F000FA8D62 /* TSResponse.h */,
-				711AA17F188D49F000FA8D62 /* TSTapstream.h */,
-				711AA180188D49F000FA8D62 /* TSUtils.h */,
-				711AA156188D49D400FA8D62 /* Analytics */,
+				718C25A819B73FEC00B19A36 /* Analytics */,
+				718C25A919B73FEC00B19A36 /* Headers */,
 			);
 			name = Analytics.framework;
 			sourceTree = "<group>";
 		};
-		711AA16B188D49F000FA8D62 /* Private */ = {
+		718C25A919B73FEC00B19A36 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				711AA16C188D49F000FA8D62 /* AnalyticsProvider.h */,
-				711AA16D188D49F000FA8D62 /* SegmentioProvider.h */,
+				718C25AA19B73FEC00B19A36 /* _MPTweakBindObserver.h */,
+				718C25AB19B73FEC00B19A36 /* Amplitude.h */,
+				718C25AC19B73FEC00B19A36 /* AmplitudeARCMacros.h */,
+				718C25AD19B73FEC00B19A36 /* AmplitudeLocationManagerDelegate.h */,
+				718C25AE19B73FEC00B19A36 /* Analytics.h */,
+				718C25AF19B73FEC00B19A36 /* AppsFlyerTracker.h */,
+				718C25B019B73FEC00B19A36 /* Bugsnag.h */,
+				718C25B119B73FEC00B19A36 /* BugsnagConfiguration.h */,
+				718C25B219B73FEC00B19A36 /* BugsnagDictionary.h */,
+				718C25B319B73FEC00B19A36 /* BugsnagEvent.h */,
+				718C25B419B73FEC00B19A36 /* BugsnagIosNotifier.h */,
+				718C25B519B73FEC00B19A36 /* BugsnagLogger.h */,
+				718C25B619B73FEC00B19A36 /* BugsnagMetaData.h */,
+				718C25B719B73FEC00B19A36 /* BugsnagNotifier.h */,
+				718C25B819B73FEC00B19A36 /* BugsnagReachability.h */,
+				718C25B919B73FEC00B19A36 /* Countly.h */,
+				718C25BA19B73FEC00B19A36 /* Countly_OpenUDID.h */,
+				718C25BB19B73FEC00B19A36 /* CRFilter.h */,
+				718C25BC19B73FEC00B19A36 /* Crittercism.h */,
+				718C25BD19B73FEC00B19A36 /* CrittercismDelegate.h */,
+				718C25BE19B73FEC00B19A36 /* Flurry.h */,
+				718C25BF19B73FEC00B19A36 /* GAI.h */,
+				718C25C019B73FEC00B19A36 /* GAIDictionaryBuilder.h */,
+				718C25C119B73FEC00B19A36 /* GAIEcommerceFields.h */,
+				718C25C219B73FEC00B19A36 /* GAIEcommerceProduct.h */,
+				718C25C319B73FEC00B19A36 /* GAIEcommerceProductAction.h */,
+				718C25C419B73FEC00B19A36 /* GAIEcommercePromotion.h */,
+				718C25C519B73FEC00B19A36 /* GAIFields.h */,
+				718C25C619B73FEC00B19A36 /* GAILogger.h */,
+				718C25C719B73FEC00B19A36 /* GAITrackedViewController.h */,
+				718C25C819B73FEC00B19A36 /* GAITracker.h */,
+				718C25C919B73FEC00B19A36 /* LocalyticsConstants.h */,
+				718C25CA19B73FEC00B19A36 /* LocalyticsDatabase.h */,
+				718C25CB19B73FEC00B19A36 /* LocalyticsDatapointHelper.h */,
+				718C25CC19B73FEC00B19A36 /* LocalyticsSession+Private.h */,
+				718C25CD19B73FEC00B19A36 /* LocalyticsSession.h */,
+				718C25CE19B73FEC00B19A36 /* LocalyticsUploader.h */,
+				718C25CF19B73FEC00B19A36 /* LocalyticsUtil.h */,
+				718C25D019B73FEC00B19A36 /* Mixpanel.h */,
+				718C25D119B73FEC00B19A36 /* MPAbstractABTestDesignerMessage.h */,
+				718C25D219B73FEC00B19A36 /* MPABTestDesignerChangeRequestMessage.h */,
+				718C25D319B73FEC00B19A36 /* MPABTestDesignerChangeResponseMessage.h */,
+				718C25D419B73FEC00B19A36 /* MPABTestDesignerClearRequestMessage.h */,
+				718C25D519B73FEC00B19A36 /* MPABTestDesignerClearResponseMessage.h */,
+				718C25D619B73FEC00B19A36 /* MPABTestDesignerConnection.h */,
+				718C25D719B73FEC00B19A36 /* MPABTestDesignerDeviceInfoRequestMessage.h */,
+				718C25D819B73FEC00B19A36 /* MPABTestDesignerDeviceInfoResponseMessage.h */,
+				718C25D919B73FEC00B19A36 /* MPABTestDesignerDisconnectMessage.h */,
+				718C25DA19B73FEC00B19A36 /* MPABTestDesignerMessage.h */,
+				718C25DB19B73FEC00B19A36 /* MPABTestDesignerSnapshotRequestMessage.h */,
+				718C25DC19B73FEC00B19A36 /* MPABTestDesignerSnapshotResponseMessage.h */,
+				718C25DD19B73FEC00B19A36 /* MPABTestDesignerTweakRequestMessage.h */,
+				718C25DE19B73FEC00B19A36 /* MPABTestDesignerTweakResponseMessage.h */,
+				718C25DF19B73FEC00B19A36 /* MPApplicationStateSerializer.h */,
+				718C25E019B73FEC00B19A36 /* MPClassDescription.h */,
+				718C25E119B73FEC00B19A36 /* MPEnumDescription.h */,
+				718C25E219B73FEC00B19A36 /* MPNotification.h */,
+				718C25E319B73FEC00B19A36 /* MPNotificationViewController.h */,
+				718C25E419B73FEC00B19A36 /* MPObjectIdentifierProvider.h */,
+				718C25E519B73FEC00B19A36 /* MPObjectIdentityProvider.h */,
+				718C25E619B73FEC00B19A36 /* MPObjectSelector.h */,
+				718C25E719B73FEC00B19A36 /* MPObjectSerializer.h */,
+				718C25E819B73FEC00B19A36 /* MPObjectSerializerConfig.h */,
+				718C25E919B73FEC00B19A36 /* MPObjectSerializerContext.h */,
+				718C25EA19B73FEC00B19A36 /* MPPropertyDescription.h */,
+				718C25EB19B73FEC00B19A36 /* MPSequenceGenerator.h */,
+				718C25EC19B73FEC00B19A36 /* MPSurvey.h */,
+				718C25ED19B73FEC00B19A36 /* MPSurveyNavigationController.h */,
+				718C25EE19B73FEC00B19A36 /* MPSurveyQuestion.h */,
+				718C25EF19B73FEC00B19A36 /* MPSurveyQuestionViewController.h */,
+				718C25F019B73FEC00B19A36 /* MPSwizzler.h */,
+				718C25F119B73FEC00B19A36 /* MPTweak.h */,
+				718C25F219B73FEC00B19A36 /* MPTweakInline.h */,
+				718C25F319B73FEC00B19A36 /* MPTweakInlineInternal.h */,
+				718C25F419B73FEC00B19A36 /* MPTweakStore.h */,
+				718C25F519B73FEC00B19A36 /* MPTypeDescription.h */,
+				718C25F619B73FEC00B19A36 /* MPValueTransformers.h */,
+				718C25F719B73FEC00B19A36 /* MPVariant.h */,
+				718C25F819B73FEC00B19A36 /* MPWebSocket.h */,
+				718C25F919B73FEC00B19A36 /* NSData+MPBase64.h */,
+				718C25FA19B73FEC00B19A36 /* NSInvocation+MPHelpers.h */,
+				718C25FB19B73FEC00B19A36 /* Optimizely.h */,
+				718C25FC19B73FEC00B19A36 /* OptimizelyCodeBlocksKey.h */,
+				718C25FD19B73FEC00B19A36 /* OptimizelyVariableKey.h */,
+				718C25FE19B73FEC00B19A36 /* QuantcastDatabase.h */,
+				718C25FF19B73FEC00B19A36 /* QuantcastDataManager.h */,
+				718C260019B73FEC00B19A36 /* QuantcastEvent.h */,
+				718C260119B73FEC00B19A36 /* QuantcastEventLogger.h */,
+				718C260219B73FEC00B19A36 /* QuantcastMeasurement+Internal.h */,
+				718C260319B73FEC00B19A36 /* QuantcastMeasurement.h */,
+				718C260419B73FEC00B19A36 /* QuantcastNetworkReachability.h */,
+				718C260519B73FEC00B19A36 /* QuantcastOptOutDelegate.h */,
+				718C260619B73FEC00B19A36 /* QuantcastOptOutViewController.h */,
+				718C260719B73FEC00B19A36 /* QuantcastParameters.h */,
+				718C260819B73FEC00B19A36 /* QuantcastPolicy.h */,
+				718C260919B73FEC00B19A36 /* QuantcastUploadManager.h */,
+				718C260A19B73FEC00B19A36 /* QuantcastUtils.h */,
+				718C260B19B73FEC00B19A36 /* SEGAnalytics.h */,
+				718C260C19B73FEC00B19A36 /* TAGContainer.h */,
+				718C260D19B73FEC00B19A36 /* TAGContainerOpener.h */,
+				718C260E19B73FEC00B19A36 /* TAGDataLayer.h */,
+				718C260F19B73FEC00B19A36 /* TAGLogger.h */,
+				718C261019B73FEC00B19A36 /* TAGManager.h */,
+				718C261119B73FEC00B19A36 /* Taplytics.h */,
+				718C261219B73FEC00B19A36 /* TestFlight+AsyncLogging.h */,
+				718C261319B73FEC00B19A36 /* TestFlight+ManualSessions.h */,
+				718C261419B73FEC00B19A36 /* TestFlight.h */,
+				718C261519B73FEC00B19A36 /* TSApi.h */,
+				718C261619B73FEC00B19A36 /* TSAppEventSource.h */,
+				718C261719B73FEC00B19A36 /* TSAppEventSourceImpl.h */,
+				718C261819B73FEC00B19A36 /* TSConfig.h */,
+				718C261919B73FEC00B19A36 /* TSCore.h */,
+				718C261A19B73FEC00B19A36 /* TSCoreListener.h */,
+				718C261B19B73FEC00B19A36 /* TSCoreListenerImpl.h */,
+				718C261C19B73FEC00B19A36 /* TSDelegate.h */,
+				718C261D19B73FEC00B19A36 /* TSEvent.h */,
+				718C261E19B73FEC00B19A36 /* TSHelpers.h */,
+				718C261F19B73FEC00B19A36 /* TSHit.h */,
+				718C262019B73FEC00B19A36 /* TSLogging.h */,
+				718C262119B73FEC00B19A36 /* TSLogLevel.h */,
+				718C262219B73FEC00B19A36 /* TSPlatform.h */,
+				718C262319B73FEC00B19A36 /* TSPlatformImpl.h */,
+				718C262419B73FEC00B19A36 /* TSResponse.h */,
+				718C262519B73FEC00B19A36 /* TSTapstream.h */,
+				718C262619B73FEC00B19A36 /* TSUtils.h */,
+				718C262719B73FEC00B19A36 /* TSWordOfMouthDelegate.h */,
+				718C262819B73FEC00B19A36 /* UIColor+MPColor.h */,
+				718C262919B73FEC00B19A36 /* UIImage+MPAverageColor.h */,
+				718C262A19B73FEC00B19A36 /* UIImage+MPImageEffects.h */,
+				718C262B19B73FEC00B19A36 /* UIView+MPSnapshotImage.h */,
 			);
-			name = Private;
-			path = Analytics.framework/Versions/A/Headers/Private;
+			name = Headers;
+			path = Analytics.framework/Versions/A/Headers;
 			sourceTree = "<group>";
 		};
 		B31B6D4315C13D5200854074 = {
 			isa = PBXGroup;
 			children = (
-				711AA154188D499900FA8D62 /* Analytics.framework */,
+				718C25A719B73FD300B19A36 /* Analytics.framework */,
 				B3CC61EF1716ECB500A1A8EF /* segmentio_API.h */,
 				B3CC61F01716ECB500A1A8EF /* segmentio_API.m */,
 				B3CC61F11716ECB500A1A8EF /* segmentio_EventListener.h */,
@@ -237,7 +417,7 @@
 		B31B6D4515C13D5200854074 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Trigger Corp";
 			};
 			buildConfigurationList = B31B6D4815C13D5200854074 /* Build configuration list for PBXProject "ForgeModule" */;
@@ -299,8 +479,10 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -310,14 +492,16 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s i386 arm64";
 			};
 			name = Debug;
 		};
@@ -332,18 +516,22 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s i386 arm64";
 			};
 			name = Release;
 		};
@@ -362,7 +550,7 @@
 				HEADER_SEARCH_PATHS = "./**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/antoine/.Trash/ios-inspector.mine/ForgeModule/Analytics.framework",
+					"$(PROJECT_DIR)/Analytics.framework/Versions/A",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,7 +575,7 @@
 				HEADER_SEARCH_PATHS = "./**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/antoine/.Trash/ios-inspector.mine/ForgeModule/Analytics.framework",
+					"$(PROJECT_DIR)/Analytics.framework/Versions/A",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
