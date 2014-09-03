@@ -1,6 +1,6 @@
 #import "segmentio_API.h"
 
-#import <Analytics/Analytics.h>
+#import "Analytics.h"
 
 @implementation segmentio_API
 
