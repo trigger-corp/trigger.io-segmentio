@@ -83,7 +83,7 @@ typedef void (^OptimizelySuccessBlock)(BOOL success, NSError *error);
                       launchOptions:(NSDictionary *)launchOptions
           experimentsLoadedCallback:(OptimizelySuccessBlock)experimentsLoadedCallback;
 
-/** This method allows you to add custom tags with string value for targeting.
+/** This method allows you to add custom tags for targeting.
  *
  * @param tagKey Key for custom tag
  * @param tagValue Value for custom tag
@@ -145,6 +145,13 @@ typedef void (^OptimizelySuccessBlock)(BOOL success, NSError *error);
  * @see +dispatch
  */
 + (void)trackEvent:(NSString *)description;
+
+/** This method registers a callback method for when a given variable is changed.
+ *
+ * @param key The Optimizely key associated with the variable you want to watch
+ * @param callback The callback method that will be invoked whenever the variable is changed. It takes in two parameters, the first being the key of the changed variable and the second is the variable's new value
+ */
++ (void)registerCallbackForVariableWithKey:(OptimizelyVariableKey *)key callback:(void (^)(NSString *, id))callback;
 
 #pragma mark - Variable getters
 /** @name Live Variables */
@@ -260,10 +267,11 @@ typedef void (^OptimizelySuccessBlock)(BOOL success, NSError *error);
 #pragma mark - Properties
 /** @name Properties */
 
-/** Provides a mapping of all the experiments currently active for the user to the variation
- *  they're bucketed into for that experiment
+/** Provides an array of all the experiments currently active for the user to the variation
+ *  they're bucketed into for that experiment. The metadata includes experiment Id, variation Id,
+ *  experiment description and variation description.
  */
-@property (nonatomic, strong, readonly) NSDictionary *activeExperiments;
+@property (nonatomic, strong, readonly) NSArray *activeExperiments;
 
 
 /** The The current Optimizely project id. */
@@ -304,11 +312,13 @@ typedef void (^OptimizelySuccessBlock)(BOOL success, NSError *error);
  * duration of the app run (applicationDidFinishLaunching:withOptions: is called).
  *
  * When shouldReloadExperimentsOnForegrounding is set to true, experiments may be activated when
- * an application returns to the foreground, regardless of whether applicationDidFinishLaunching:withOptions: is called.
- * Developers should be aware that Optimizely values may change throughout the duration of the app run and that this may
- * have unintended consequences on statistical validity.
+ * an application is foregrounded, regardless of whether it is a fresh launch.  Developers should be aware that Optimizely
+ * values may change throughout the duration of the app run and that this may have unintended consequences on statistical validity.
+ * We recommend targeting your experiments such that all users will have a consistent value for shouldReloadExperimentsOnForegrounding.
  */
 @property (assign) BOOL shouldReloadExperimentsOnForegrounding;
+
+#pragma mark - Integrations
 
 /** @name Integrations*/
 /**

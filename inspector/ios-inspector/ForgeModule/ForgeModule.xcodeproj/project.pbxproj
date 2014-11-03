@@ -21,136 +21,132 @@
 
 /* Begin PBXFileReference section */
 		718C25A819B73FEC00B19A36 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Analytics; path = Analytics.framework/Versions/A/Analytics; sourceTree = "<group>"; };
-		718C25AA19B73FEC00B19A36 /* _MPTweakBindObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MPTweakBindObserver.h; sourceTree = "<group>"; };
-		718C25AB19B73FEC00B19A36 /* Amplitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amplitude.h; sourceTree = "<group>"; };
-		718C25AC19B73FEC00B19A36 /* AmplitudeARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmplitudeARCMacros.h; sourceTree = "<group>"; };
-		718C25AD19B73FEC00B19A36 /* AmplitudeLocationManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmplitudeLocationManagerDelegate.h; sourceTree = "<group>"; };
-		718C25AE19B73FEC00B19A36 /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
-		718C25AF19B73FEC00B19A36 /* AppsFlyerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
-		718C25B019B73FEC00B19A36 /* Bugsnag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bugsnag.h; sourceTree = "<group>"; };
-		718C25B119B73FEC00B19A36 /* BugsnagConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagConfiguration.h; sourceTree = "<group>"; };
-		718C25B219B73FEC00B19A36 /* BugsnagDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagDictionary.h; sourceTree = "<group>"; };
-		718C25B319B73FEC00B19A36 /* BugsnagEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagEvent.h; sourceTree = "<group>"; };
-		718C25B419B73FEC00B19A36 /* BugsnagIosNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagIosNotifier.h; sourceTree = "<group>"; };
-		718C25B519B73FEC00B19A36 /* BugsnagLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagLogger.h; sourceTree = "<group>"; };
-		718C25B619B73FEC00B19A36 /* BugsnagMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagMetaData.h; sourceTree = "<group>"; };
-		718C25B719B73FEC00B19A36 /* BugsnagNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagNotifier.h; sourceTree = "<group>"; };
-		718C25B819B73FEC00B19A36 /* BugsnagReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagReachability.h; sourceTree = "<group>"; };
-		718C25B919B73FEC00B19A36 /* Countly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly.h; sourceTree = "<group>"; };
-		718C25BA19B73FEC00B19A36 /* Countly_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly_OpenUDID.h; sourceTree = "<group>"; };
-		718C25BB19B73FEC00B19A36 /* CRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
-		718C25BC19B73FEC00B19A36 /* Crittercism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
-		718C25BD19B73FEC00B19A36 /* CrittercismDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
-		718C25BE19B73FEC00B19A36 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		718C25BF19B73FEC00B19A36 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		718C25C019B73FEC00B19A36 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		718C25C119B73FEC00B19A36 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
-		718C25C219B73FEC00B19A36 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		718C25C319B73FEC00B19A36 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		718C25C419B73FEC00B19A36 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		718C25C519B73FEC00B19A36 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		718C25C619B73FEC00B19A36 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		718C25C719B73FEC00B19A36 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		718C25C819B73FEC00B19A36 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		718C25C919B73FEC00B19A36 /* LocalyticsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsConstants.h; sourceTree = "<group>"; };
-		718C25CA19B73FEC00B19A36 /* LocalyticsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsDatabase.h; sourceTree = "<group>"; };
-		718C25CB19B73FEC00B19A36 /* LocalyticsDatapointHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsDatapointHelper.h; sourceTree = "<group>"; };
-		718C25CC19B73FEC00B19A36 /* LocalyticsSession+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LocalyticsSession+Private.h"; sourceTree = "<group>"; };
-		718C25CD19B73FEC00B19A36 /* LocalyticsSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsSession.h; sourceTree = "<group>"; };
-		718C25CE19B73FEC00B19A36 /* LocalyticsUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsUploader.h; sourceTree = "<group>"; };
-		718C25CF19B73FEC00B19A36 /* LocalyticsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsUtil.h; sourceTree = "<group>"; };
-		718C25D019B73FEC00B19A36 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mixpanel.h; sourceTree = "<group>"; };
-		718C25D119B73FEC00B19A36 /* MPAbstractABTestDesignerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAbstractABTestDesignerMessage.h; sourceTree = "<group>"; };
-		718C25D219B73FEC00B19A36 /* MPABTestDesignerChangeRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerChangeRequestMessage.h; sourceTree = "<group>"; };
-		718C25D319B73FEC00B19A36 /* MPABTestDesignerChangeResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerChangeResponseMessage.h; sourceTree = "<group>"; };
-		718C25D419B73FEC00B19A36 /* MPABTestDesignerClearRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerClearRequestMessage.h; sourceTree = "<group>"; };
-		718C25D519B73FEC00B19A36 /* MPABTestDesignerClearResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerClearResponseMessage.h; sourceTree = "<group>"; };
-		718C25D619B73FEC00B19A36 /* MPABTestDesignerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerConnection.h; sourceTree = "<group>"; };
-		718C25D719B73FEC00B19A36 /* MPABTestDesignerDeviceInfoRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDeviceInfoRequestMessage.h; sourceTree = "<group>"; };
-		718C25D819B73FEC00B19A36 /* MPABTestDesignerDeviceInfoResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDeviceInfoResponseMessage.h; sourceTree = "<group>"; };
-		718C25D919B73FEC00B19A36 /* MPABTestDesignerDisconnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDisconnectMessage.h; sourceTree = "<group>"; };
-		718C25DA19B73FEC00B19A36 /* MPABTestDesignerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerMessage.h; sourceTree = "<group>"; };
-		718C25DB19B73FEC00B19A36 /* MPABTestDesignerSnapshotRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerSnapshotRequestMessage.h; sourceTree = "<group>"; };
-		718C25DC19B73FEC00B19A36 /* MPABTestDesignerSnapshotResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerSnapshotResponseMessage.h; sourceTree = "<group>"; };
-		718C25DD19B73FEC00B19A36 /* MPABTestDesignerTweakRequestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerTweakRequestMessage.h; sourceTree = "<group>"; };
-		718C25DE19B73FEC00B19A36 /* MPABTestDesignerTweakResponseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerTweakResponseMessage.h; sourceTree = "<group>"; };
-		718C25DF19B73FEC00B19A36 /* MPApplicationStateSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPApplicationStateSerializer.h; sourceTree = "<group>"; };
-		718C25E019B73FEC00B19A36 /* MPClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPClassDescription.h; sourceTree = "<group>"; };
-		718C25E119B73FEC00B19A36 /* MPEnumDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEnumDescription.h; sourceTree = "<group>"; };
-		718C25E219B73FEC00B19A36 /* MPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotification.h; sourceTree = "<group>"; };
-		718C25E319B73FEC00B19A36 /* MPNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotificationViewController.h; sourceTree = "<group>"; };
-		718C25E419B73FEC00B19A36 /* MPObjectIdentifierProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectIdentifierProvider.h; sourceTree = "<group>"; };
-		718C25E519B73FEC00B19A36 /* MPObjectIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectIdentityProvider.h; sourceTree = "<group>"; };
-		718C25E619B73FEC00B19A36 /* MPObjectSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSelector.h; sourceTree = "<group>"; };
-		718C25E719B73FEC00B19A36 /* MPObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializer.h; sourceTree = "<group>"; };
-		718C25E819B73FEC00B19A36 /* MPObjectSerializerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializerConfig.h; sourceTree = "<group>"; };
-		718C25E919B73FEC00B19A36 /* MPObjectSerializerContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializerContext.h; sourceTree = "<group>"; };
-		718C25EA19B73FEC00B19A36 /* MPPropertyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPropertyDescription.h; sourceTree = "<group>"; };
-		718C25EB19B73FEC00B19A36 /* MPSequenceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSequenceGenerator.h; sourceTree = "<group>"; };
-		718C25EC19B73FEC00B19A36 /* MPSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurvey.h; sourceTree = "<group>"; };
-		718C25ED19B73FEC00B19A36 /* MPSurveyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyNavigationController.h; sourceTree = "<group>"; };
-		718C25EE19B73FEC00B19A36 /* MPSurveyQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestion.h; sourceTree = "<group>"; };
-		718C25EF19B73FEC00B19A36 /* MPSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestionViewController.h; sourceTree = "<group>"; };
-		718C25F019B73FEC00B19A36 /* MPSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSwizzler.h; sourceTree = "<group>"; };
-		718C25F119B73FEC00B19A36 /* MPTweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweak.h; sourceTree = "<group>"; };
-		718C25F219B73FEC00B19A36 /* MPTweakInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweakInline.h; sourceTree = "<group>"; };
-		718C25F319B73FEC00B19A36 /* MPTweakInlineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweakInlineInternal.h; sourceTree = "<group>"; };
-		718C25F419B73FEC00B19A36 /* MPTweakStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTweakStore.h; sourceTree = "<group>"; };
-		718C25F519B73FEC00B19A36 /* MPTypeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTypeDescription.h; sourceTree = "<group>"; };
-		718C25F619B73FEC00B19A36 /* MPValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPValueTransformers.h; sourceTree = "<group>"; };
-		718C25F719B73FEC00B19A36 /* MPVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPVariant.h; sourceTree = "<group>"; };
-		718C25F819B73FEC00B19A36 /* MPWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWebSocket.h; sourceTree = "<group>"; };
-		718C25F919B73FEC00B19A36 /* NSData+MPBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MPBase64.h"; sourceTree = "<group>"; };
-		718C25FA19B73FEC00B19A36 /* NSInvocation+MPHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+MPHelpers.h"; sourceTree = "<group>"; };
-		718C25FB19B73FEC00B19A36 /* Optimizely.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optimizely.h; sourceTree = "<group>"; };
-		718C25FC19B73FEC00B19A36 /* OptimizelyCodeBlocksKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizelyCodeBlocksKey.h; sourceTree = "<group>"; };
-		718C25FD19B73FEC00B19A36 /* OptimizelyVariableKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizelyVariableKey.h; sourceTree = "<group>"; };
-		718C25FE19B73FEC00B19A36 /* QuantcastDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastDatabase.h; sourceTree = "<group>"; };
-		718C25FF19B73FEC00B19A36 /* QuantcastDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastDataManager.h; sourceTree = "<group>"; };
-		718C260019B73FEC00B19A36 /* QuantcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastEvent.h; sourceTree = "<group>"; };
-		718C260119B73FEC00B19A36 /* QuantcastEventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastEventLogger.h; sourceTree = "<group>"; };
-		718C260219B73FEC00B19A36 /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Internal.h"; sourceTree = "<group>"; };
-		718C260319B73FEC00B19A36 /* QuantcastMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastMeasurement.h; sourceTree = "<group>"; };
-		718C260419B73FEC00B19A36 /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastNetworkReachability.h; sourceTree = "<group>"; };
-		718C260519B73FEC00B19A36 /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutDelegate.h; sourceTree = "<group>"; };
-		718C260619B73FEC00B19A36 /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutViewController.h; sourceTree = "<group>"; };
-		718C260719B73FEC00B19A36 /* QuantcastParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastParameters.h; sourceTree = "<group>"; };
-		718C260819B73FEC00B19A36 /* QuantcastPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastPolicy.h; sourceTree = "<group>"; };
-		718C260919B73FEC00B19A36 /* QuantcastUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastUploadManager.h; sourceTree = "<group>"; };
-		718C260A19B73FEC00B19A36 /* QuantcastUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastUtils.h; sourceTree = "<group>"; };
-		718C260B19B73FEC00B19A36 /* SEGAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAnalytics.h; sourceTree = "<group>"; };
-		718C260C19B73FEC00B19A36 /* TAGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
-		718C260D19B73FEC00B19A36 /* TAGContainerOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
-		718C260E19B73FEC00B19A36 /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
-		718C260F19B73FEC00B19A36 /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
-		718C261019B73FEC00B19A36 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
-		718C261119B73FEC00B19A36 /* Taplytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taplytics.h; sourceTree = "<group>"; };
-		718C261219B73FEC00B19A36 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		718C261319B73FEC00B19A36 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		718C261419B73FEC00B19A36 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		718C261519B73FEC00B19A36 /* TSApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSApi.h; sourceTree = "<group>"; };
-		718C261619B73FEC00B19A36 /* TSAppEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppEventSource.h; sourceTree = "<group>"; };
-		718C261719B73FEC00B19A36 /* TSAppEventSourceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppEventSourceImpl.h; sourceTree = "<group>"; };
-		718C261819B73FEC00B19A36 /* TSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSConfig.h; sourceTree = "<group>"; };
-		718C261919B73FEC00B19A36 /* TSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCore.h; sourceTree = "<group>"; };
-		718C261A19B73FEC00B19A36 /* TSCoreListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoreListener.h; sourceTree = "<group>"; };
-		718C261B19B73FEC00B19A36 /* TSCoreListenerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCoreListenerImpl.h; sourceTree = "<group>"; };
-		718C261C19B73FEC00B19A36 /* TSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDelegate.h; sourceTree = "<group>"; };
-		718C261D19B73FEC00B19A36 /* TSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSEvent.h; sourceTree = "<group>"; };
-		718C261E19B73FEC00B19A36 /* TSHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHelpers.h; sourceTree = "<group>"; };
-		718C261F19B73FEC00B19A36 /* TSHit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHit.h; sourceTree = "<group>"; };
-		718C262019B73FEC00B19A36 /* TSLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogging.h; sourceTree = "<group>"; };
-		718C262119B73FEC00B19A36 /* TSLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogLevel.h; sourceTree = "<group>"; };
-		718C262219B73FEC00B19A36 /* TSPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPlatform.h; sourceTree = "<group>"; };
-		718C262319B73FEC00B19A36 /* TSPlatformImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPlatformImpl.h; sourceTree = "<group>"; };
-		718C262419B73FEC00B19A36 /* TSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSResponse.h; sourceTree = "<group>"; };
-		718C262519B73FEC00B19A36 /* TSTapstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTapstream.h; sourceTree = "<group>"; };
-		718C262619B73FEC00B19A36 /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
-		718C262719B73FEC00B19A36 /* TSWordOfMouthDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWordOfMouthDelegate.h; sourceTree = "<group>"; };
-		718C262819B73FEC00B19A36 /* UIColor+MPColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MPColor.h"; sourceTree = "<group>"; };
-		718C262919B73FEC00B19A36 /* UIImage+MPAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPAverageColor.h"; sourceTree = "<group>"; };
-		718C262A19B73FEC00B19A36 /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPImageEffects.h"; sourceTree = "<group>"; };
-		718C262B19B73FEC00B19A36 /* UIView+MPSnapshotImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MPSnapshotImage.h"; sourceTree = "<group>"; };
+		71F07A841A077FA700322334 /* _MPTweakBindObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _MPTweakBindObserver.h; sourceTree = "<group>"; };
+		71F07A851A077FA700322334 /* Amplitude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Amplitude.h; sourceTree = "<group>"; };
+		71F07A861A077FA700322334 /* AmplitudeARCMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudeARCMacros.h; sourceTree = "<group>"; };
+		71F07A871A077FA700322334 /* AmplitudeLocationManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmplitudeLocationManagerDelegate.h; sourceTree = "<group>"; };
+		71F07A881A077FA700322334 /* Analytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		71F07A891A077FA700322334 /* AppsFlyerTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppsFlyerTracker.h; sourceTree = "<group>"; };
+		71F07A8A1A077FA700322334 /* Bugsnag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bugsnag.h; sourceTree = "<group>"; };
+		71F07A8B1A077FA700322334 /* BugsnagConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagConfiguration.h; sourceTree = "<group>"; };
+		71F07A8C1A077FA700322334 /* BugsnagDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagDictionary.h; sourceTree = "<group>"; };
+		71F07A8D1A077FA700322334 /* BugsnagEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagEvent.h; sourceTree = "<group>"; };
+		71F07A8E1A077FA700322334 /* BugsnagIosNotifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagIosNotifier.h; sourceTree = "<group>"; };
+		71F07A8F1A077FA700322334 /* BugsnagLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagLogger.h; sourceTree = "<group>"; };
+		71F07A901A077FA700322334 /* BugsnagMetaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagMetaData.h; sourceTree = "<group>"; };
+		71F07A911A077FA700322334 /* BugsnagNotifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagNotifier.h; sourceTree = "<group>"; };
+		71F07A921A077FA700322334 /* BugsnagReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsnagReachability.h; sourceTree = "<group>"; };
+		71F07A931A077FA700322334 /* Countly_OpenUDID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Countly_OpenUDID.h; sourceTree = "<group>"; };
+		71F07A941A077FA700322334 /* Countly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Countly.h; sourceTree = "<group>"; };
+		71F07A951A077FA700322334 /* CRFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRFilter.h; sourceTree = "<group>"; };
+		71F07A961A077FA700322334 /* Crittercism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
+		71F07A971A077FA700322334 /* CrittercismDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrittercismDelegate.h; sourceTree = "<group>"; };
+		71F07A981A077FA700322334 /* Flurry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		71F07A991A077FA700322334 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		71F07A9A1A077FA700322334 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		71F07A9B1A077FA700322334 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		71F07A9C1A077FA700322334 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		71F07A9D1A077FA700322334 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		71F07A9E1A077FA700322334 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		71F07A9F1A077FA700322334 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		71F07AA01A077FA700322334 /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		71F07AA11A077FA700322334 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		71F07AA21A077FA700322334 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		71F07AA31A077FA700322334 /* LocalyticsAmpSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalyticsAmpSession.h; sourceTree = "<group>"; };
+		71F07AA41A077FA700322334 /* LocalyticsSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalyticsSession.h; sourceTree = "<group>"; };
+		71F07AA51A077FA700322334 /* Mixpanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mixpanel.h; sourceTree = "<group>"; };
+		71F07AA61A077FA700322334 /* MPAbstractABTestDesignerMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAbstractABTestDesignerMessage.h; sourceTree = "<group>"; };
+		71F07AA71A077FA700322334 /* MPABTestDesignerChangeRequestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerChangeRequestMessage.h; sourceTree = "<group>"; };
+		71F07AA81A077FA700322334 /* MPABTestDesignerChangeResponseMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerChangeResponseMessage.h; sourceTree = "<group>"; };
+		71F07AA91A077FA700322334 /* MPABTestDesignerClearRequestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerClearRequestMessage.h; sourceTree = "<group>"; };
+		71F07AAA1A077FA700322334 /* MPABTestDesignerClearResponseMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerClearResponseMessage.h; sourceTree = "<group>"; };
+		71F07AAB1A077FA700322334 /* MPABTestDesignerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerConnection.h; sourceTree = "<group>"; };
+		71F07AAC1A077FA700322334 /* MPABTestDesignerDeviceInfoRequestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDeviceInfoRequestMessage.h; sourceTree = "<group>"; };
+		71F07AAD1A077FA700322334 /* MPABTestDesignerDeviceInfoResponseMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDeviceInfoResponseMessage.h; sourceTree = "<group>"; };
+		71F07AAE1A077FA700322334 /* MPABTestDesignerDisconnectMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerDisconnectMessage.h; sourceTree = "<group>"; };
+		71F07AAF1A077FA700322334 /* MPABTestDesignerMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerMessage.h; sourceTree = "<group>"; };
+		71F07AB01A077FA700322334 /* MPABTestDesignerSnapshotRequestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerSnapshotRequestMessage.h; sourceTree = "<group>"; };
+		71F07AB11A077FA700322334 /* MPABTestDesignerSnapshotResponseMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerSnapshotResponseMessage.h; sourceTree = "<group>"; };
+		71F07AB21A077FA700322334 /* MPABTestDesignerTweakRequestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerTweakRequestMessage.h; sourceTree = "<group>"; };
+		71F07AB31A077FA700322334 /* MPABTestDesignerTweakResponseMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPABTestDesignerTweakResponseMessage.h; sourceTree = "<group>"; };
+		71F07AB41A077FA700322334 /* MPApplicationStateSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPApplicationStateSerializer.h; sourceTree = "<group>"; };
+		71F07AB51A077FA700322334 /* MPClassDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPClassDescription.h; sourceTree = "<group>"; };
+		71F07AB61A077FA700322334 /* MPEnumDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPEnumDescription.h; sourceTree = "<group>"; };
+		71F07AB71A077FA700322334 /* MPNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPNotification.h; sourceTree = "<group>"; };
+		71F07AB81A077FA700322334 /* MPNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPNotificationViewController.h; sourceTree = "<group>"; };
+		71F07AB91A077FA700322334 /* MPObjectIdentifierProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPObjectIdentifierProvider.h; sourceTree = "<group>"; };
+		71F07ABA1A077FA700322334 /* MPObjectIdentityProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPObjectIdentityProvider.h; sourceTree = "<group>"; };
+		71F07ABB1A077FA700322334 /* MPObjectSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPObjectSelector.h; sourceTree = "<group>"; };
+		71F07ABC1A077FA700322334 /* MPObjectSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializer.h; sourceTree = "<group>"; };
+		71F07ABD1A077FA700322334 /* MPObjectSerializerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializerConfig.h; sourceTree = "<group>"; };
+		71F07ABE1A077FA700322334 /* MPObjectSerializerContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPObjectSerializerContext.h; sourceTree = "<group>"; };
+		71F07ABF1A077FA700322334 /* MPPropertyDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPPropertyDescription.h; sourceTree = "<group>"; };
+		71F07AC01A077FA700322334 /* MPSequenceGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSequenceGenerator.h; sourceTree = "<group>"; };
+		71F07AC11A077FA700322334 /* MPSurvey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSurvey.h; sourceTree = "<group>"; };
+		71F07AC21A077FA700322334 /* MPSurveyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSurveyNavigationController.h; sourceTree = "<group>"; };
+		71F07AC31A077FA700322334 /* MPSurveyQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestion.h; sourceTree = "<group>"; };
+		71F07AC41A077FA700322334 /* MPSurveyQuestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestionViewController.h; sourceTree = "<group>"; };
+		71F07AC51A077FA700322334 /* MPSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSwizzler.h; sourceTree = "<group>"; };
+		71F07AC61A077FA700322334 /* MPTweak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTweak.h; sourceTree = "<group>"; };
+		71F07AC71A077FA700322334 /* MPTweakInline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTweakInline.h; sourceTree = "<group>"; };
+		71F07AC81A077FA700322334 /* MPTweakInlineInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTweakInlineInternal.h; sourceTree = "<group>"; };
+		71F07AC91A077FA700322334 /* MPTweakStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTweakStore.h; sourceTree = "<group>"; };
+		71F07ACA1A077FA700322334 /* MPTypeDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTypeDescription.h; sourceTree = "<group>"; };
+		71F07ACB1A077FA700322334 /* MPValueTransformers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPValueTransformers.h; sourceTree = "<group>"; };
+		71F07ACC1A077FA700322334 /* MPVariant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPVariant.h; sourceTree = "<group>"; };
+		71F07ACD1A077FA700322334 /* MPWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPWebSocket.h; sourceTree = "<group>"; };
+		71F07ACE1A077FA700322334 /* NSData+MPBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MPBase64.h"; sourceTree = "<group>"; };
+		71F07ACF1A077FA700322334 /* NSInvocation+MPHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+MPHelpers.h"; sourceTree = "<group>"; };
+		71F07AD01A077FA700322334 /* Optimizely.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Optimizely.h; sourceTree = "<group>"; };
+		71F07AD11A077FA700322334 /* OptimizelyCodeBlocksKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptimizelyCodeBlocksKey.h; sourceTree = "<group>"; };
+		71F07AD21A077FA700322334 /* OptimizelyVariableKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptimizelyVariableKey.h; sourceTree = "<group>"; };
+		71F07AD31A077FA700322334 /* QuantcastDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastDatabase.h; sourceTree = "<group>"; };
+		71F07AD41A077FA700322334 /* QuantcastDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastDataManager.h; sourceTree = "<group>"; };
+		71F07AD51A077FA700322334 /* QuantcastEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastEvent.h; sourceTree = "<group>"; };
+		71F07AD61A077FA700322334 /* QuantcastEventLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastEventLogger.h; sourceTree = "<group>"; };
+		71F07AD71A077FA700322334 /* QuantcastMeasurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastMeasurement.h; sourceTree = "<group>"; };
+		71F07AD81A077FA700322334 /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Internal.h"; sourceTree = "<group>"; };
+		71F07AD91A077FA700322334 /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastNetworkReachability.h; sourceTree = "<group>"; };
+		71F07ADA1A077FA700322334 /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutDelegate.h; sourceTree = "<group>"; };
+		71F07ADB1A077FA700322334 /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutViewController.h; sourceTree = "<group>"; };
+		71F07ADC1A077FA700322334 /* QuantcastParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastParameters.h; sourceTree = "<group>"; };
+		71F07ADD1A077FA700322334 /* QuantcastPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastPolicy.h; sourceTree = "<group>"; };
+		71F07ADE1A077FA700322334 /* QuantcastUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastUploadManager.h; sourceTree = "<group>"; };
+		71F07ADF1A077FA700322334 /* QuantcastUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuantcastUtils.h; sourceTree = "<group>"; };
+		71F07AE01A077FA700322334 /* SEGAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAnalytics.h; sourceTree = "<group>"; };
+		71F07AE11A077FA700322334 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		71F07AE21A077FA700322334 /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		71F07AE31A077FA700322334 /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		71F07AE41A077FA700322334 /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		71F07AE51A077FA700322334 /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		71F07AE61A077FA700322334 /* Taplytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taplytics.h; sourceTree = "<group>"; };
+		71F07AE71A077FA700322334 /* TaplyticsOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaplyticsOptions.h; sourceTree = "<group>"; };
+		71F07AE81A077FA700322334 /* TestFlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		71F07AE91A077FA700322334 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		71F07AEA1A077FA700322334 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		71F07AEB1A077FA700322334 /* TSApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSApi.h; sourceTree = "<group>"; };
+		71F07AEC1A077FA700322334 /* TSAppEventSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppEventSource.h; sourceTree = "<group>"; };
+		71F07AED1A077FA700322334 /* TSAppEventSourceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppEventSourceImpl.h; sourceTree = "<group>"; };
+		71F07AEE1A077FA700322334 /* TSConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSConfig.h; sourceTree = "<group>"; };
+		71F07AEF1A077FA700322334 /* TSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCore.h; sourceTree = "<group>"; };
+		71F07AF01A077FA700322334 /* TSCoreListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCoreListener.h; sourceTree = "<group>"; };
+		71F07AF11A077FA700322334 /* TSCoreListenerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSCoreListenerImpl.h; sourceTree = "<group>"; };
+		71F07AF21A077FA700322334 /* TSDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDelegate.h; sourceTree = "<group>"; };
+		71F07AF31A077FA700322334 /* TSEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSEvent.h; sourceTree = "<group>"; };
+		71F07AF41A077FA700322334 /* TSHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHelpers.h; sourceTree = "<group>"; };
+		71F07AF51A077FA700322334 /* TSHit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSHit.h; sourceTree = "<group>"; };
+		71F07AF61A077FA700322334 /* TSLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLogging.h; sourceTree = "<group>"; };
+		71F07AF71A077FA700322334 /* TSLogLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSLogLevel.h; sourceTree = "<group>"; };
+		71F07AF81A077FA700322334 /* TSPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPlatform.h; sourceTree = "<group>"; };
+		71F07AF91A077FA700322334 /* TSPlatformImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPlatformImpl.h; sourceTree = "<group>"; };
+		71F07AFA1A077FA700322334 /* TSResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSResponse.h; sourceTree = "<group>"; };
+		71F07AFB1A077FA700322334 /* TSTapstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTapstream.h; sourceTree = "<group>"; };
+		71F07AFC1A077FA700322334 /* TSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
+		71F07AFD1A077FA700322334 /* TSWordOfMouthDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSWordOfMouthDelegate.h; sourceTree = "<group>"; };
+		71F07AFE1A077FA700322334 /* UIColor+MPColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MPColor.h"; sourceTree = "<group>"; };
+		71F07AFF1A077FA700322334 /* UIImage+MPAverageColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPAverageColor.h"; sourceTree = "<group>"; };
+		71F07B001A077FA700322334 /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPImageEffects.h"; sourceTree = "<group>"; };
+		71F07B011A077FA700322334 /* UIView+MPSnapshotImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MPSnapshotImage.h"; sourceTree = "<group>"; };
 		B31B6D4E15C13D5200854074 /* libForgeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForgeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B6D5115C13D5200854074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B31B6D6D15C1467100854074 /* segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,136 +200,132 @@
 		718C25A919B73FEC00B19A36 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				718C25AA19B73FEC00B19A36 /* _MPTweakBindObserver.h */,
-				718C25AB19B73FEC00B19A36 /* Amplitude.h */,
-				718C25AC19B73FEC00B19A36 /* AmplitudeARCMacros.h */,
-				718C25AD19B73FEC00B19A36 /* AmplitudeLocationManagerDelegate.h */,
-				718C25AE19B73FEC00B19A36 /* Analytics.h */,
-				718C25AF19B73FEC00B19A36 /* AppsFlyerTracker.h */,
-				718C25B019B73FEC00B19A36 /* Bugsnag.h */,
-				718C25B119B73FEC00B19A36 /* BugsnagConfiguration.h */,
-				718C25B219B73FEC00B19A36 /* BugsnagDictionary.h */,
-				718C25B319B73FEC00B19A36 /* BugsnagEvent.h */,
-				718C25B419B73FEC00B19A36 /* BugsnagIosNotifier.h */,
-				718C25B519B73FEC00B19A36 /* BugsnagLogger.h */,
-				718C25B619B73FEC00B19A36 /* BugsnagMetaData.h */,
-				718C25B719B73FEC00B19A36 /* BugsnagNotifier.h */,
-				718C25B819B73FEC00B19A36 /* BugsnagReachability.h */,
-				718C25B919B73FEC00B19A36 /* Countly.h */,
-				718C25BA19B73FEC00B19A36 /* Countly_OpenUDID.h */,
-				718C25BB19B73FEC00B19A36 /* CRFilter.h */,
-				718C25BC19B73FEC00B19A36 /* Crittercism.h */,
-				718C25BD19B73FEC00B19A36 /* CrittercismDelegate.h */,
-				718C25BE19B73FEC00B19A36 /* Flurry.h */,
-				718C25BF19B73FEC00B19A36 /* GAI.h */,
-				718C25C019B73FEC00B19A36 /* GAIDictionaryBuilder.h */,
-				718C25C119B73FEC00B19A36 /* GAIEcommerceFields.h */,
-				718C25C219B73FEC00B19A36 /* GAIEcommerceProduct.h */,
-				718C25C319B73FEC00B19A36 /* GAIEcommerceProductAction.h */,
-				718C25C419B73FEC00B19A36 /* GAIEcommercePromotion.h */,
-				718C25C519B73FEC00B19A36 /* GAIFields.h */,
-				718C25C619B73FEC00B19A36 /* GAILogger.h */,
-				718C25C719B73FEC00B19A36 /* GAITrackedViewController.h */,
-				718C25C819B73FEC00B19A36 /* GAITracker.h */,
-				718C25C919B73FEC00B19A36 /* LocalyticsConstants.h */,
-				718C25CA19B73FEC00B19A36 /* LocalyticsDatabase.h */,
-				718C25CB19B73FEC00B19A36 /* LocalyticsDatapointHelper.h */,
-				718C25CC19B73FEC00B19A36 /* LocalyticsSession+Private.h */,
-				718C25CD19B73FEC00B19A36 /* LocalyticsSession.h */,
-				718C25CE19B73FEC00B19A36 /* LocalyticsUploader.h */,
-				718C25CF19B73FEC00B19A36 /* LocalyticsUtil.h */,
-				718C25D019B73FEC00B19A36 /* Mixpanel.h */,
-				718C25D119B73FEC00B19A36 /* MPAbstractABTestDesignerMessage.h */,
-				718C25D219B73FEC00B19A36 /* MPABTestDesignerChangeRequestMessage.h */,
-				718C25D319B73FEC00B19A36 /* MPABTestDesignerChangeResponseMessage.h */,
-				718C25D419B73FEC00B19A36 /* MPABTestDesignerClearRequestMessage.h */,
-				718C25D519B73FEC00B19A36 /* MPABTestDesignerClearResponseMessage.h */,
-				718C25D619B73FEC00B19A36 /* MPABTestDesignerConnection.h */,
-				718C25D719B73FEC00B19A36 /* MPABTestDesignerDeviceInfoRequestMessage.h */,
-				718C25D819B73FEC00B19A36 /* MPABTestDesignerDeviceInfoResponseMessage.h */,
-				718C25D919B73FEC00B19A36 /* MPABTestDesignerDisconnectMessage.h */,
-				718C25DA19B73FEC00B19A36 /* MPABTestDesignerMessage.h */,
-				718C25DB19B73FEC00B19A36 /* MPABTestDesignerSnapshotRequestMessage.h */,
-				718C25DC19B73FEC00B19A36 /* MPABTestDesignerSnapshotResponseMessage.h */,
-				718C25DD19B73FEC00B19A36 /* MPABTestDesignerTweakRequestMessage.h */,
-				718C25DE19B73FEC00B19A36 /* MPABTestDesignerTweakResponseMessage.h */,
-				718C25DF19B73FEC00B19A36 /* MPApplicationStateSerializer.h */,
-				718C25E019B73FEC00B19A36 /* MPClassDescription.h */,
-				718C25E119B73FEC00B19A36 /* MPEnumDescription.h */,
-				718C25E219B73FEC00B19A36 /* MPNotification.h */,
-				718C25E319B73FEC00B19A36 /* MPNotificationViewController.h */,
-				718C25E419B73FEC00B19A36 /* MPObjectIdentifierProvider.h */,
-				718C25E519B73FEC00B19A36 /* MPObjectIdentityProvider.h */,
-				718C25E619B73FEC00B19A36 /* MPObjectSelector.h */,
-				718C25E719B73FEC00B19A36 /* MPObjectSerializer.h */,
-				718C25E819B73FEC00B19A36 /* MPObjectSerializerConfig.h */,
-				718C25E919B73FEC00B19A36 /* MPObjectSerializerContext.h */,
-				718C25EA19B73FEC00B19A36 /* MPPropertyDescription.h */,
-				718C25EB19B73FEC00B19A36 /* MPSequenceGenerator.h */,
-				718C25EC19B73FEC00B19A36 /* MPSurvey.h */,
-				718C25ED19B73FEC00B19A36 /* MPSurveyNavigationController.h */,
-				718C25EE19B73FEC00B19A36 /* MPSurveyQuestion.h */,
-				718C25EF19B73FEC00B19A36 /* MPSurveyQuestionViewController.h */,
-				718C25F019B73FEC00B19A36 /* MPSwizzler.h */,
-				718C25F119B73FEC00B19A36 /* MPTweak.h */,
-				718C25F219B73FEC00B19A36 /* MPTweakInline.h */,
-				718C25F319B73FEC00B19A36 /* MPTweakInlineInternal.h */,
-				718C25F419B73FEC00B19A36 /* MPTweakStore.h */,
-				718C25F519B73FEC00B19A36 /* MPTypeDescription.h */,
-				718C25F619B73FEC00B19A36 /* MPValueTransformers.h */,
-				718C25F719B73FEC00B19A36 /* MPVariant.h */,
-				718C25F819B73FEC00B19A36 /* MPWebSocket.h */,
-				718C25F919B73FEC00B19A36 /* NSData+MPBase64.h */,
-				718C25FA19B73FEC00B19A36 /* NSInvocation+MPHelpers.h */,
-				718C25FB19B73FEC00B19A36 /* Optimizely.h */,
-				718C25FC19B73FEC00B19A36 /* OptimizelyCodeBlocksKey.h */,
-				718C25FD19B73FEC00B19A36 /* OptimizelyVariableKey.h */,
-				718C25FE19B73FEC00B19A36 /* QuantcastDatabase.h */,
-				718C25FF19B73FEC00B19A36 /* QuantcastDataManager.h */,
-				718C260019B73FEC00B19A36 /* QuantcastEvent.h */,
-				718C260119B73FEC00B19A36 /* QuantcastEventLogger.h */,
-				718C260219B73FEC00B19A36 /* QuantcastMeasurement+Internal.h */,
-				718C260319B73FEC00B19A36 /* QuantcastMeasurement.h */,
-				718C260419B73FEC00B19A36 /* QuantcastNetworkReachability.h */,
-				718C260519B73FEC00B19A36 /* QuantcastOptOutDelegate.h */,
-				718C260619B73FEC00B19A36 /* QuantcastOptOutViewController.h */,
-				718C260719B73FEC00B19A36 /* QuantcastParameters.h */,
-				718C260819B73FEC00B19A36 /* QuantcastPolicy.h */,
-				718C260919B73FEC00B19A36 /* QuantcastUploadManager.h */,
-				718C260A19B73FEC00B19A36 /* QuantcastUtils.h */,
-				718C260B19B73FEC00B19A36 /* SEGAnalytics.h */,
-				718C260C19B73FEC00B19A36 /* TAGContainer.h */,
-				718C260D19B73FEC00B19A36 /* TAGContainerOpener.h */,
-				718C260E19B73FEC00B19A36 /* TAGDataLayer.h */,
-				718C260F19B73FEC00B19A36 /* TAGLogger.h */,
-				718C261019B73FEC00B19A36 /* TAGManager.h */,
-				718C261119B73FEC00B19A36 /* Taplytics.h */,
-				718C261219B73FEC00B19A36 /* TestFlight+AsyncLogging.h */,
-				718C261319B73FEC00B19A36 /* TestFlight+ManualSessions.h */,
-				718C261419B73FEC00B19A36 /* TestFlight.h */,
-				718C261519B73FEC00B19A36 /* TSApi.h */,
-				718C261619B73FEC00B19A36 /* TSAppEventSource.h */,
-				718C261719B73FEC00B19A36 /* TSAppEventSourceImpl.h */,
-				718C261819B73FEC00B19A36 /* TSConfig.h */,
-				718C261919B73FEC00B19A36 /* TSCore.h */,
-				718C261A19B73FEC00B19A36 /* TSCoreListener.h */,
-				718C261B19B73FEC00B19A36 /* TSCoreListenerImpl.h */,
-				718C261C19B73FEC00B19A36 /* TSDelegate.h */,
-				718C261D19B73FEC00B19A36 /* TSEvent.h */,
-				718C261E19B73FEC00B19A36 /* TSHelpers.h */,
-				718C261F19B73FEC00B19A36 /* TSHit.h */,
-				718C262019B73FEC00B19A36 /* TSLogging.h */,
-				718C262119B73FEC00B19A36 /* TSLogLevel.h */,
-				718C262219B73FEC00B19A36 /* TSPlatform.h */,
-				718C262319B73FEC00B19A36 /* TSPlatformImpl.h */,
-				718C262419B73FEC00B19A36 /* TSResponse.h */,
-				718C262519B73FEC00B19A36 /* TSTapstream.h */,
-				718C262619B73FEC00B19A36 /* TSUtils.h */,
-				718C262719B73FEC00B19A36 /* TSWordOfMouthDelegate.h */,
-				718C262819B73FEC00B19A36 /* UIColor+MPColor.h */,
-				718C262919B73FEC00B19A36 /* UIImage+MPAverageColor.h */,
-				718C262A19B73FEC00B19A36 /* UIImage+MPImageEffects.h */,
-				718C262B19B73FEC00B19A36 /* UIView+MPSnapshotImage.h */,
+				71F07A841A077FA700322334 /* _MPTweakBindObserver.h */,
+				71F07A851A077FA700322334 /* Amplitude.h */,
+				71F07A861A077FA700322334 /* AmplitudeARCMacros.h */,
+				71F07A871A077FA700322334 /* AmplitudeLocationManagerDelegate.h */,
+				71F07A881A077FA700322334 /* Analytics.h */,
+				71F07A891A077FA700322334 /* AppsFlyerTracker.h */,
+				71F07A8A1A077FA700322334 /* Bugsnag.h */,
+				71F07A8B1A077FA700322334 /* BugsnagConfiguration.h */,
+				71F07A8C1A077FA700322334 /* BugsnagDictionary.h */,
+				71F07A8D1A077FA700322334 /* BugsnagEvent.h */,
+				71F07A8E1A077FA700322334 /* BugsnagIosNotifier.h */,
+				71F07A8F1A077FA700322334 /* BugsnagLogger.h */,
+				71F07A901A077FA700322334 /* BugsnagMetaData.h */,
+				71F07A911A077FA700322334 /* BugsnagNotifier.h */,
+				71F07A921A077FA700322334 /* BugsnagReachability.h */,
+				71F07A931A077FA700322334 /* Countly_OpenUDID.h */,
+				71F07A941A077FA700322334 /* Countly.h */,
+				71F07A951A077FA700322334 /* CRFilter.h */,
+				71F07A961A077FA700322334 /* Crittercism.h */,
+				71F07A971A077FA700322334 /* CrittercismDelegate.h */,
+				71F07A981A077FA700322334 /* Flurry.h */,
+				71F07A991A077FA700322334 /* GAI.h */,
+				71F07A9A1A077FA700322334 /* GAIDictionaryBuilder.h */,
+				71F07A9B1A077FA700322334 /* GAIEcommerceFields.h */,
+				71F07A9C1A077FA700322334 /* GAIEcommerceProduct.h */,
+				71F07A9D1A077FA700322334 /* GAIEcommerceProductAction.h */,
+				71F07A9E1A077FA700322334 /* GAIEcommercePromotion.h */,
+				71F07A9F1A077FA700322334 /* GAIFields.h */,
+				71F07AA01A077FA700322334 /* GAILogger.h */,
+				71F07AA11A077FA700322334 /* GAITrackedViewController.h */,
+				71F07AA21A077FA700322334 /* GAITracker.h */,
+				71F07AA31A077FA700322334 /* LocalyticsAmpSession.h */,
+				71F07AA41A077FA700322334 /* LocalyticsSession.h */,
+				71F07AA51A077FA700322334 /* Mixpanel.h */,
+				71F07AA61A077FA700322334 /* MPAbstractABTestDesignerMessage.h */,
+				71F07AA71A077FA700322334 /* MPABTestDesignerChangeRequestMessage.h */,
+				71F07AA81A077FA700322334 /* MPABTestDesignerChangeResponseMessage.h */,
+				71F07AA91A077FA700322334 /* MPABTestDesignerClearRequestMessage.h */,
+				71F07AAA1A077FA700322334 /* MPABTestDesignerClearResponseMessage.h */,
+				71F07AAB1A077FA700322334 /* MPABTestDesignerConnection.h */,
+				71F07AAC1A077FA700322334 /* MPABTestDesignerDeviceInfoRequestMessage.h */,
+				71F07AAD1A077FA700322334 /* MPABTestDesignerDeviceInfoResponseMessage.h */,
+				71F07AAE1A077FA700322334 /* MPABTestDesignerDisconnectMessage.h */,
+				71F07AAF1A077FA700322334 /* MPABTestDesignerMessage.h */,
+				71F07AB01A077FA700322334 /* MPABTestDesignerSnapshotRequestMessage.h */,
+				71F07AB11A077FA700322334 /* MPABTestDesignerSnapshotResponseMessage.h */,
+				71F07AB21A077FA700322334 /* MPABTestDesignerTweakRequestMessage.h */,
+				71F07AB31A077FA700322334 /* MPABTestDesignerTweakResponseMessage.h */,
+				71F07AB41A077FA700322334 /* MPApplicationStateSerializer.h */,
+				71F07AB51A077FA700322334 /* MPClassDescription.h */,
+				71F07AB61A077FA700322334 /* MPEnumDescription.h */,
+				71F07AB71A077FA700322334 /* MPNotification.h */,
+				71F07AB81A077FA700322334 /* MPNotificationViewController.h */,
+				71F07AB91A077FA700322334 /* MPObjectIdentifierProvider.h */,
+				71F07ABA1A077FA700322334 /* MPObjectIdentityProvider.h */,
+				71F07ABB1A077FA700322334 /* MPObjectSelector.h */,
+				71F07ABC1A077FA700322334 /* MPObjectSerializer.h */,
+				71F07ABD1A077FA700322334 /* MPObjectSerializerConfig.h */,
+				71F07ABE1A077FA700322334 /* MPObjectSerializerContext.h */,
+				71F07ABF1A077FA700322334 /* MPPropertyDescription.h */,
+				71F07AC01A077FA700322334 /* MPSequenceGenerator.h */,
+				71F07AC11A077FA700322334 /* MPSurvey.h */,
+				71F07AC21A077FA700322334 /* MPSurveyNavigationController.h */,
+				71F07AC31A077FA700322334 /* MPSurveyQuestion.h */,
+				71F07AC41A077FA700322334 /* MPSurveyQuestionViewController.h */,
+				71F07AC51A077FA700322334 /* MPSwizzler.h */,
+				71F07AC61A077FA700322334 /* MPTweak.h */,
+				71F07AC71A077FA700322334 /* MPTweakInline.h */,
+				71F07AC81A077FA700322334 /* MPTweakInlineInternal.h */,
+				71F07AC91A077FA700322334 /* MPTweakStore.h */,
+				71F07ACA1A077FA700322334 /* MPTypeDescription.h */,
+				71F07ACB1A077FA700322334 /* MPValueTransformers.h */,
+				71F07ACC1A077FA700322334 /* MPVariant.h */,
+				71F07ACD1A077FA700322334 /* MPWebSocket.h */,
+				71F07ACE1A077FA700322334 /* NSData+MPBase64.h */,
+				71F07ACF1A077FA700322334 /* NSInvocation+MPHelpers.h */,
+				71F07AD01A077FA700322334 /* Optimizely.h */,
+				71F07AD11A077FA700322334 /* OptimizelyCodeBlocksKey.h */,
+				71F07AD21A077FA700322334 /* OptimizelyVariableKey.h */,
+				71F07AD31A077FA700322334 /* QuantcastDatabase.h */,
+				71F07AD41A077FA700322334 /* QuantcastDataManager.h */,
+				71F07AD51A077FA700322334 /* QuantcastEvent.h */,
+				71F07AD61A077FA700322334 /* QuantcastEventLogger.h */,
+				71F07AD71A077FA700322334 /* QuantcastMeasurement.h */,
+				71F07AD81A077FA700322334 /* QuantcastMeasurement+Internal.h */,
+				71F07AD91A077FA700322334 /* QuantcastNetworkReachability.h */,
+				71F07ADA1A077FA700322334 /* QuantcastOptOutDelegate.h */,
+				71F07ADB1A077FA700322334 /* QuantcastOptOutViewController.h */,
+				71F07ADC1A077FA700322334 /* QuantcastParameters.h */,
+				71F07ADD1A077FA700322334 /* QuantcastPolicy.h */,
+				71F07ADE1A077FA700322334 /* QuantcastUploadManager.h */,
+				71F07ADF1A077FA700322334 /* QuantcastUtils.h */,
+				71F07AE01A077FA700322334 /* SEGAnalytics.h */,
+				71F07AE11A077FA700322334 /* TAGContainer.h */,
+				71F07AE21A077FA700322334 /* TAGContainerOpener.h */,
+				71F07AE31A077FA700322334 /* TAGDataLayer.h */,
+				71F07AE41A077FA700322334 /* TAGLogger.h */,
+				71F07AE51A077FA700322334 /* TAGManager.h */,
+				71F07AE61A077FA700322334 /* Taplytics.h */,
+				71F07AE71A077FA700322334 /* TaplyticsOptions.h */,
+				71F07AE81A077FA700322334 /* TestFlight.h */,
+				71F07AE91A077FA700322334 /* TestFlight+AsyncLogging.h */,
+				71F07AEA1A077FA700322334 /* TestFlight+ManualSessions.h */,
+				71F07AEB1A077FA700322334 /* TSApi.h */,
+				71F07AEC1A077FA700322334 /* TSAppEventSource.h */,
+				71F07AED1A077FA700322334 /* TSAppEventSourceImpl.h */,
+				71F07AEE1A077FA700322334 /* TSConfig.h */,
+				71F07AEF1A077FA700322334 /* TSCore.h */,
+				71F07AF01A077FA700322334 /* TSCoreListener.h */,
+				71F07AF11A077FA700322334 /* TSCoreListenerImpl.h */,
+				71F07AF21A077FA700322334 /* TSDelegate.h */,
+				71F07AF31A077FA700322334 /* TSEvent.h */,
+				71F07AF41A077FA700322334 /* TSHelpers.h */,
+				71F07AF51A077FA700322334 /* TSHit.h */,
+				71F07AF61A077FA700322334 /* TSLogging.h */,
+				71F07AF71A077FA700322334 /* TSLogLevel.h */,
+				71F07AF81A077FA700322334 /* TSPlatform.h */,
+				71F07AF91A077FA700322334 /* TSPlatformImpl.h */,
+				71F07AFA1A077FA700322334 /* TSResponse.h */,
+				71F07AFB1A077FA700322334 /* TSTapstream.h */,
+				71F07AFC1A077FA700322334 /* TSUtils.h */,
+				71F07AFD1A077FA700322334 /* TSWordOfMouthDelegate.h */,
+				71F07AFE1A077FA700322334 /* UIColor+MPColor.h */,
+				71F07AFF1A077FA700322334 /* UIImage+MPAverageColor.h */,
+				71F07B001A077FA700322334 /* UIImage+MPImageEffects.h */,
+				71F07B011A077FA700322334 /* UIView+MPSnapshotImage.h */,
 			);
 			name = Headers;
 			path = Analytics.framework/Versions/A/Headers;
