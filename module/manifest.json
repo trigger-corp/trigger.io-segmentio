@@ -1,8 +1,8 @@
 {
-    "changes": "* Update iOS SDK to 1.8.3", 
-    "description": "Use segment.io to record analytics data from your applications", 
-    "min_platform_version": "v2.1.0", 
+    "changes": "* Deprecated module. This module is no longer supported.\n* Updated Segment.IO iOS SDK to 1.11.7\n",
+    "description": "This module has been deprecated and is no longer supported.", 
+    "min_platform_version": "v2.2.10", 
     "namespace": "segmentio", 
-    "platform_version": "v2.2.0", 
-    "version": "2.2"
+    "platform_version": "v2.2.10", 
+    "version": "2.3"
 }
